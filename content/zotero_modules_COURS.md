@@ -5,7 +5,7 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
 
 ## Objectifs
 
-* Utiliser les modules complémentaires [ZotFile](http://zotfile.com/),[Zutilo](https://github.com/willsALMANJ/Zutilo) et [DOI Manager](https://github.com/bwiernik/zotero-shortdoi) pour enrichir et optimiser sa bibliothèque Zotero
+* Utiliser les modules complémentaires [ZotFile](http://zotfile.com/), [Zutilo](https://github.com/willsALMANJ/Zutilo) et [DOI Manager](https://github.com/bwiernik/zotero-shortdoi) pour enrichir et optimiser sa bibliothèque Zotero
 * Identifier, installer et utiliser d'autres modules complémentaires de Zotero en fonction de ses besoins - ![zotero][zotero] [liste complète des modules complémentaires de Zotero](https://www.zotero.org/support/plugins)
 
 
