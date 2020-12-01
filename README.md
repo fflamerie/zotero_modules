@@ -4,10 +4,11 @@ Matériel de la formation ["Approfondissement Zotero : optimiser la gestion de v
 
 ## Supports de formation
 
-:woman_technologist: A VENIR
 
 * COURS - [à consulter en ligne en html](https://github.com/fflamerie/zotero_modules/blob/master/content/zotero_modules_COURS.md) et [à télécharger en PDF](https://github.com/fflamerie/zotero_modules/blob/master/content/zotero_modules_COURS.pdf)
-...
+* Traduction provisoire de la documentation Zutilo
+  * [COMMANDS-fr](https://github.com/fflamerie/zotero_modules/blob/main/content/zutilo-COMMANDS-fr.md)
+  * [USAGE-fr](https://github.com/fflamerie/zotero_modules/blob/main/content/zutilo-USAGE-fr.md)
 
 
 ## Descriptif de la formation
