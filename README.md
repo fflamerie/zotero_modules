@@ -6,9 +6,12 @@ Matériel de la formation ["Approfondissement Zotero : optimiser la gestion de v
 
 
 * COURS - [à consulter en ligne en html](https://github.com/fflamerie/zotero_modules/blob/master/content/zotero_modules_COURS.md) et [à télécharger en PDF](https://github.com/fflamerie/zotero_modules/blob/master/content/zotero_modules_COURS.pdf)
-* Traduction provisoire de la documentation Zutilo
-  * [COMMANDS-fr](https://github.com/fflamerie/zotero_modules/blob/main/content/zutilo-COMMANDS-fr.md)
-  * [USAGE-fr](https://github.com/fflamerie/zotero_modules/blob/main/content/zutilo-USAGE-fr.md)
+* Documentation de Zutilo en français
+  * [COMMANDS](https://github.com/wshanks/Zutilo/blob/master/i18n/fr/readme/docs/COMMANDS.md)
+  * [USAGE](https://github.com/wshanks/Zutilo/blob/master/i18n/fr/readme/docs/USAGE.md)
+* Billets du blog Zotero francophone
+  * [ZotFile : un outil pour gérer vos PDF](https://zotero.hypotheses.org/2838)
+  * [Les moteurs de recherche intégrés à Zotero](https://zotero.hypotheses.org/3388)
 
 
 ## Descriptif de la formation
