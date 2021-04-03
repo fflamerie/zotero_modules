@@ -5,7 +5,7 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
 
 ## Objectifs
 
-* Utiliser les modules complémentaires [ZotFile](http://zotfile.com/), [Zutilo](https://github.com/willsALMANJ/Zutilo) et [DOI Manager](https://github.com/bwiernik/zotero-shortdoi) pour enrichir et optimiser sa bibliothèque Zotero
+* Utiliser les modules complémentaires [ZotFile](http://zotfile.com/),[Zutilo](https://github.com/willsALMANJ/Zutilo) et [DOI Manager](https://github.com/bwiernik/zotero-shortdoi) pour enrichir et optimiser sa bibliothèque Zotero
 * Identifier, installer et utiliser d'autres modules complémentaires de Zotero en fonction de ses besoins - ![zotero][zotero] [liste complète des modules complémentaires de Zotero](https://www.zotero.org/support/plugins)
 
 
@@ -21,7 +21,6 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
    - [Zutilo](#zutilo)   
    - [DOI Manager](#doi-manager)   
 - [II. Optimiser la gestion des PDF avec ZotFile](#ii-optimiser-la-gestion-des-pdf-avec-zotfile)   
-   - [Comment gérez-vous vos PDF actuellement?](#comment-gérez-vous-vos-pdf-actuellement)   
    - [Ressources](#ressources)   
    - [1.a Renommer ses fichiers avec ZotFile](#1a-renommer-ses-fichiers-avec-zotfile)   
    - [1.b Déplacer ses fichiers avec ZotFile](#1b-déplacer-ses-fichiers-avec-zotfile)   
@@ -38,7 +37,7 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
 
 ## Tour de table
 
-* D'où venez-vous : à quelle unité / institution appartenez-vous? Quel est votre domaine de recherche?
+* D'où venez-vous : à quelle unité / institution appartenez-vous Quel est votre domaine de recherche?
 * Qu'attendez-vous du stage de ce matin?
 
 👉 🔇 Si vous n'avez pas de micro, répondez dans la conversation Zoom.
@@ -68,7 +67,7 @@ Une fois ZotFile installé, il peut être configuré à partir du menu _Outils_ 
 
 ### Zutilo
 
-Les versions de Zutilo sont disponibles par le biais de la page _Releases_ du dépôt GitHub de ce module. Sur la page https://github.com/wshanks/Zutilo/releases , un clic-droit sur le lien  _zutilo.xpi_ > _Enregistrer la cible du lien sous..._ de la dernière version, présentée en tête de la page, permet de récupérer le fichier `.xpi` pour installer la version la plus récente de Zutilo.
+Les versions de Zutilo sont disponibles par le biais de la page _Releases_ du dépôt GitHub de ce module. Sur la page https://github.com/wshanks/Zutilo/releases , un clic-droit sur le lien  _zutilo.xpi _ > Enregistrer la cible du lien sous..._ de la dernière version, présentée en tête de la page, permet de récupérer le fichier `.xpi` pour installer la version la plus récente de Zutilo.
 
 Une fois Zutilo installé, il peut être configuré à partir du menu _Outils_ de Zotero > _Préférences de Zutilo..._
 
@@ -86,11 +85,9 @@ Une fois Zutilo installé, il peut être configuré à partir du menu _Outils_ d
 Voici  les principales caractéristiques de ZotFile.
 
 1. Faciliter la gestion des fichiers joints en les **renommant -> 1.a** et/ou en les **déplaçant -> 1.b** automatiquement.
-
-  * 1.a Renommage automatique et intelligent des fichiers.
-  * 1.b Attachement au document Zotero du fichier le plus récemment modifié depuis un répertoire déterminé -> les fichiers sont enregistrés **dans** le répertoire `Zotero\storage`.
-  * 1.b Déplacement des fichiers joints dans un répertoire déterminé > les fichiers sont enregistrés **en-dehors** du répertoire `Zotero\storage`.
-  
+        * 1.a Renommage automatique et intelligent des fichiers.
+        * 1.b Attachement au document Zotero du fichier le plus récemment modifié depuis un répertoire déterminé -> les fichiers sont enregistrés **dans** le répertoire `Zotero\storage`.
+        * 1.b Déplacement des fichiers joints dans un répertoire déterminé > les fichiers sont enregistrés **en-dehors** du répertoire `Zotero\storage`.
 2. Synchroniser les fichiers PDF avec un iPad ou une tablette.
 3. Extraire les annotations et le texte surligné des PDF et les restituer dans des notes Zotero.
 
@@ -180,14 +177,16 @@ Zutilo s'efforce de réaliser tous vos souhaits en termes de flux de travail Zot
 _Traduit de la [présentation de Zutilo - fichier README](https://github.com/wshanks/Zutilo/blob/master/README.md)_
 
 
-La traduction en français de la documentation est disponible sur le dépôt GitHub de Zutilo.
+La traduction en français de la documentation est en cours d'intégration au dépôt GitHub de Zutilo.
 
-* Le [fichier COMMANDS](https://github.com/wshanks/Zutilo/blob/master/i18n/fr/readme/docs/COMMANDS.md) explicite chacune des fonctionnalités offertes par ZotFile.
-* Le [fichier USAGE](https://github.com/wshanks/Zutilo/blob/master/i18n/fr/readme/docs/USAGE.md) détaille des cas d'usage pour certaines fonctionnalités en particulier.
+D'ici-là vous pouvez la consulter en avant-première aux adresses suivantes.
 
-🛠️ Ouvrez les préférences de Zutilo et le fichier COMMANDS.
+* Le [fichier COMMANDS-fr](https://github.com/fflamerie/zotero_modules/blob/main/content/zutilo-COMMANDS-fr.md) explicite chacune des fonctionnalités offertes par ZotFile.
+* Le [fichier USAGE-fr](https://github.com/fflamerie/zotero_modules/blob/main/content/zutilo-USAGE-fr.md) détaille des cas d'usage pour certaines fonctionnalités en particulier.
 
-👉 En considérant les fonctions **autres que les fonctions des pièces jointes**, indiquez dans la conversation Zoom :
+🛠️ Ouvrez les préférences de Zutilo et le fichier COMMANDS-fr.
+
+👉En considérant les fonctions **autres que les fonctions des pièces jointes**, indiquez dans la conversation Zoom :
 
 * les **3** fonctionnalités de Zutilo qui vous semblent **les plus utiles**, en faisant précéder cette liste de `+1`,
 * les **3** fonctionnalités de Zutilo que **vous ne comprenez pas** et pour lesquelles vous souhaiteriez une démo, en faisant précéder cette liste de `??`.
@@ -229,7 +228,7 @@ Nous allons maintenant tester d'autres modules complémentaires, selon les fonct
 
 Chacun d'entre vous va installer et tester le module de son choix.
 
-Plusieurs personnes peuvent tester le même module. Ainsi, 2 d'entre vous ont cité [**Zotero Momento**](https://github.com/leonkt/zotero-memento) dans le questionnaire pré-formation. Vous pouvez tester tous les 2 ce module, nous mettrons en commun vos 2 retours.
+Plusieurs personnes peuvent tester le même module. 
 
 Vous rédigez en LaTeX ou avec un système qui utilise BibTeX? Je vous recommande [**BetterBibTeX**](https://retorque.re/zotero-better-bibtex/).
 
@@ -245,12 +244,13 @@ Toujours pas d'idée? Testez l'un des modules choisis par un autre participant.
 
 🕰️ Rendez-vous dans **20 minutes** pour une mise en commun et un retour d'expérience du module que vous avez testé.
 
-🤔 Si le test du module que vous avez choisi initialement tourne court, changez de module, et signalez ce changement dans la conversation Zoom.
+🤔Si le test du module que vous avez choisi initialement tourne court, changez de module, et signalez ce changement dans la conversation Zoom.
 
 🔇 Si vous n'avez pas de micro ou ne souhaitez pas prendre la parole, saisissez votre retour  dans la conversation Zoom.
 
 
 [zotero]: img/icone_zotero.png
+
 
 
 # Crédits
@@ -260,3 +260,7 @@ Toujours pas d'idée? Testez l'un des modules choisis par un autre participant.
 **Auteur**
 
 Frédérique Flamerie
+
+**Visuels**
+
+Site [Zotero](https://www.zotero.org/)
