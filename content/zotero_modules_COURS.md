@@ -177,12 +177,10 @@ Zutilo s'efforce de réaliser tous vos souhaits en termes de flux de travail Zot
 _Traduit de la [présentation de Zutilo - fichier README](https://github.com/wshanks/Zutilo/blob/master/README.md)_
 
 
-La traduction en français de la documentation est en cours d'intégration au dépôt GitHub de Zutilo.
+La traduction en français de la documentation est disponible dans le dépôt GitHub de Zutilo.
 
-D'ici-là vous pouvez la consulter en avant-première aux adresses suivantes.
-
-* Le [fichier COMMANDS-fr](https://github.com/fflamerie/zotero_modules/blob/main/content/zutilo-COMMANDS-fr.md) explicite chacune des fonctionnalités offertes par ZotFile.
-* Le [fichier USAGE-fr](https://github.com/fflamerie/zotero_modules/blob/main/content/zutilo-USAGE-fr.md) détaille des cas d'usage pour certaines fonctionnalités en particulier.
+* Le [fichier COMMANDS-fr](https://github.com/wshanks/Zutilo/blob/master/i18n/fr/readme/docs/COMMANDS.md) explicite chacune des fonctionnalités offertes par ZotFile.
+* Le [fichier USAGE-fr](https://github.com/wshanks/Zutilo/blob/master/i18n/fr/readme/docs/USAGE.md) détaille des cas d'usage pour certaines fonctionnalités en particulier.
 
 🛠️ Ouvrez les préférences de Zutilo et le fichier COMMANDS-fr.
 
