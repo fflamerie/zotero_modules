@@ -37,7 +37,7 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
 
 ## Tour de table
 
-* D'où venez-vous : à quelle unité / institution appartenez-vous 
+* D'où venez-vous : à quelle unité / institution appartenez-vous
 * Quel est votre domaine de recherche?
 * Qu'attendez-vous du stage de ce matin?
 
@@ -91,7 +91,7 @@ Voici  les principales caractéristiques de ZotFile.
      * 1.a Renommage automatique et intelligent des fichiers.
      * 1.b Attachement au document Zotero du fichier le plus récemment modifié depuis un répertoire déterminé -> les fichiers sont enregistrés **dans** le répertoire `Zotero\storage`.
      * 1.b Déplacement des fichiers joints dans un répertoire déterminé > les fichiers sont enregistrés **en-dehors** du répertoire `Zotero\storage`.
-      
+
 2. Synchroniser les fichiers PDF avec un iPad ou une tablette.
 3. Extraire les annotations et le texte surligné des PDF et les restituer dans des notes Zotero.
 
@@ -230,7 +230,7 @@ Nous allons maintenant tester d'autres modules complémentaires, selon les fonct
 
 Chacun d'entre vous va installer et tester le module de son choix.
 
-Plusieurs personnes peuvent tester le même module. 
+Plusieurs personnes peuvent tester le même module.
 
 Vous rédigez en LaTeX ou avec un système qui utilise BibTeX? Je vous recommande [**BetterBibTeX**](https://retorque.re/zotero-better-bibtex/).
 
@@ -262,7 +262,3 @@ Toujours pas d'idée? Testez l'un des modules choisis par un autre participant.
 **Auteur**
 
 Frédérique Flamerie
-
-**Visuels**
-
-Site [Zotero](https://www.zotero.org/)
