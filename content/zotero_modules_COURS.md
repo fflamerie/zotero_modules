@@ -37,7 +37,8 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
 
 ## Tour de table
 
-* D'où venez-vous : à quelle unité / institution appartenez-vous Quel est votre domaine de recherche?
+* D'où venez-vous : à quelle unité / institution appartenez-vous 
+* Quel est votre domaine de recherche?
 * Qu'attendez-vous du stage de ce matin?
 
 👉 🔇 Si vous n'avez pas de micro, répondez dans la conversation Zoom.
@@ -48,6 +49,7 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
 L'installation d'un module complémentaire dans Zotero consiste à charger dans Zotero un fichier d'un format particulier, le format `.xpi`.
 
 Ainsi, pour installer un module complémentaire, il faut procéder selon les étapes suivantes.
+
 * Enregistrer sur son ordinateur le fichier `.xpi` mis à disposition sur le site du module complémentaire que l'on souhaite installer.
 * Dans Zotero, aller dans le menu _Outils_  → _Extensions_.
 * Cliquer sur la roue dentée et choisir _Install Add-on From File_.
@@ -67,7 +69,7 @@ Une fois ZotFile installé, il peut être configuré à partir du menu _Outils_ 
 
 ### Zutilo
 
-Les versions de Zutilo sont disponibles par le biais de la page _Releases_ du dépôt GitHub de ce module. Sur la page https://github.com/wshanks/Zutilo/releases , un clic-droit sur le lien  _zutilo.xpi _ > Enregistrer la cible du lien sous..._ de la dernière version, présentée en tête de la page, permet de récupérer le fichier `.xpi` pour installer la version la plus récente de Zutilo.
+Les versions de Zutilo sont disponibles par le biais de la page _Releases_ du dépôt GitHub de ce module. Sur la page https://github.com/wshanks/Zutilo/releases , un clic-droit sur le lien  _zutilo.xpi_ > _Enregistrer la cible du lien sous..._ de la dernière version, présentée en tête de la page, permet de récupérer le fichier `.xpi` pour installer la version la plus récente de Zutilo.
 
 Une fois Zutilo installé, il peut être configuré à partir du menu _Outils_ de Zotero > _Préférences de Zutilo..._
 
@@ -85,9 +87,11 @@ Une fois Zutilo installé, il peut être configuré à partir du menu _Outils_ d
 Voici  les principales caractéristiques de ZotFile.
 
 1. Faciliter la gestion des fichiers joints en les **renommant -> 1.a** et/ou en les **déplaçant -> 1.b** automatiquement.
-        * 1.a Renommage automatique et intelligent des fichiers.
-        * 1.b Attachement au document Zotero du fichier le plus récemment modifié depuis un répertoire déterminé -> les fichiers sont enregistrés **dans** le répertoire `Zotero\storage`.
-        * 1.b Déplacement des fichiers joints dans un répertoire déterminé > les fichiers sont enregistrés **en-dehors** du répertoire `Zotero\storage`.
+
+     * 1.a Renommage automatique et intelligent des fichiers.
+     * 1.b Attachement au document Zotero du fichier le plus récemment modifié depuis un répertoire déterminé -> les fichiers sont enregistrés **dans** le répertoire `Zotero\storage`.
+     * 1.b Déplacement des fichiers joints dans un répertoire déterminé > les fichiers sont enregistrés **en-dehors** du répertoire `Zotero\storage`.
+      
 2. Synchroniser les fichiers PDF avec un iPad ou une tablette.
 3. Extraire les annotations et le texte surligné des PDF et les restituer dans des notes Zotero.
 
@@ -184,7 +188,7 @@ La traduction en français de la documentation est disponible dans le dépôt Gi
 
 🛠️ Ouvrez les préférences de Zutilo et le fichier COMMANDS-fr.
 
-👉En considérant les fonctions **autres que les fonctions des pièces jointes**, indiquez dans la conversation Zoom :
+👉 En considérant les fonctions **autres que les fonctions des pièces jointes**, indiquez dans la conversation Zoom :
 
 * les **3** fonctionnalités de Zutilo qui vous semblent **les plus utiles**, en faisant précéder cette liste de `+1`,
 * les **3** fonctionnalités de Zutilo que **vous ne comprenez pas** et pour lesquelles vous souhaiteriez une démo, en faisant précéder cette liste de `??`.
