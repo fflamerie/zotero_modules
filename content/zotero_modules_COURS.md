@@ -41,8 +41,6 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
 * Quel est votre domaine de recherche?
 * Qu'attendez-vous du stage de ce matin?
 
-👉 🔇 Si vous n'avez pas de micro, répondez dans la conversation Zoom.
-
 
 ## I. Installer et configurer un module complémentaire
 
@@ -106,7 +104,6 @@ Nous allons voir plus en détails les fonctionnalités 1. et 3. Je ne suis pas �
 3. Ces fichiers sont enregistrés **en-dehors** du répertoire `Zotero\storage`et je les lie aux documents Zotero grâce à la fonction _Ajouter une pièce jointe_>_Joindre un lien vers un fichier_
 4. Je ne comprends pas la question et/ou les options de réponse
 
-👉 Réponse dans le sondage Zoom
 
 ### Ressources
 
@@ -132,7 +129,7 @@ Et son supplément :
 * Les blancs sont remplacés.
 * Les caractères spéciaux (diacritiques) sont enlevés.
 
-👉 Répondez aux 2 questions suivantes dans la conversation Zoom.
+📃 Notez vos réponses aux 2 questions suivantes.
 
 * Quel est le format de renommage que vous avez défini? Copiez-collez le ; nous ferons un retour de vive voix pour les options sous forme de cases à cocher.
 * Quelles autres options de renommage vous semblerait-il pertinent de définir?
@@ -188,7 +185,7 @@ La traduction en français de la documentation est disponible dans le dépôt Gi
 
 🛠️ Ouvrez les préférences de Zutilo et le fichier COMMANDS-fr.
 
-👉 En considérant les fonctions **autres que les fonctions des pièces jointes**, indiquez dans la conversation Zoom :
+📃 En considérant les fonctions **autres que les fonctions des pièces jointes**, indiquez :
 
 * les **3** fonctionnalités de Zutilo qui vous semblent **les plus utiles**, en faisant précéder cette liste de `+1`,
 * les **3** fonctionnalités de Zutilo que **vous ne comprenez pas** et pour lesquelles vous souhaiteriez une démo, en faisant précéder cette liste de `??`.
@@ -236,19 +233,17 @@ Vous rédigez en LaTeX ou avec un système qui utilise BibTeX? Je vous recommand
 
 Vous souhaitez améliorer encore la gestion de vos pièces jointes, enregistrées dans `Zotero/storage`? Vous pouvez tester [**Zotero Storage Scanner**](https://github.com/retorquere/zotero-storage-scanner)
 
-👉 Indiquez dans la conversation Zoom le module que vous allez tester.
+📃 Indiquez le module que vous allez tester.
 
 Aucune idée? Consultez ![zotero][zotero] [liste complète des modules complémentaires de Zotero](https://www.zotero.org/support/plugins).
 
 Toujours pas d'idée? Testez l'un des modules choisis par un autre participant.
 
-👉 Indiquez dans la conversation Zoom le module que vous allez tester.
+📃 Indiquez dans la conversation Zoom le module que vous allez tester.
 
 🕰️ Rendez-vous dans **20 minutes** pour une mise en commun et un retour d'expérience du module que vous avez testé.
 
-🤔Si le test du module que vous avez choisi initialement tourne court, changez de module, et signalez ce changement dans la conversation Zoom.
-
-🔇 Si vous n'avez pas de micro ou ne souhaitez pas prendre la parole, saisissez votre retour  dans la conversation Zoom.
+🤔Si le test du module que vous avez choisi initialement tourne court, changez de module, et signalez ce changement.
 
 
 [zotero]: img/icone_zotero.png
