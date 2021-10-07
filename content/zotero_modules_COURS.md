@@ -185,7 +185,7 @@ La traduction en français de la documentation est disponible dans le dépôt Gi
 
 🛠️ Ouvrez les préférences de Zutilo et le fichier COMMANDS-fr.
 
-📃 En considérant les fonctions **autres que les fonctions des pièces jointes**, indiquez :
+📃 En considérant les fonctions **autres que les fonctions des pièces jointes**, notez :
 
 * les **3** fonctionnalités de Zutilo qui vous semblent **les plus utiles**, en faisant précéder cette liste de `+1`,
 * les **3** fonctionnalités de Zutilo que **vous ne comprenez pas** et pour lesquelles vous souhaiteriez une démo, en faisant précéder cette liste de `??`.
@@ -233,13 +233,13 @@ Vous rédigez en LaTeX ou avec un système qui utilise BibTeX? Je vous recommand
 
 Vous souhaitez améliorer encore la gestion de vos pièces jointes, enregistrées dans `Zotero/storage`? Vous pouvez tester [**Zotero Storage Scanner**](https://github.com/retorquere/zotero-storage-scanner)
 
-📃 Indiquez le module que vous allez tester.
+📃 Notez le module que vous allez tester.
 
 Aucune idée? Consultez ![zotero][zotero] [liste complète des modules complémentaires de Zotero](https://www.zotero.org/support/plugins).
 
 Toujours pas d'idée? Testez l'un des modules choisis par un autre participant.
 
-📃 Indiquez dans la conversation Zoom le module que vous allez tester.
+📃 Notez le module que vous allez tester.
 
 🕰️ Rendez-vous dans **20 minutes** pour une mise en commun et un retour d'expérience du module que vous avez testé.
 
