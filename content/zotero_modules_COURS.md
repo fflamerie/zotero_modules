@@ -39,7 +39,7 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
 
 * D'où venez-vous : à quelle unité / institution appartenez-vous
 * Quel est votre domaine de recherche?
-* Qu'attendez-vous du stage de ce matin?
+* Qu'attendez-vous du stage?
 
 
 ## I. Installer et configurer un module complémentaire
@@ -91,18 +91,19 @@ Voici  les principales caractéristiques de ZotFile.
      * 1.b Déplacement des fichiers joints dans un répertoire déterminé > les fichiers sont enregistrés **en-dehors** du répertoire `Zotero\storage`.
 
 2. Synchroniser les fichiers PDF avec un iPad ou une tablette.
-3. Extraire les annotations et le texte surligné des PDF et les restituer dans des notes Zotero.
 
-Nous allons voir plus en détails les fonctionnalités 1. et 3. Je ne suis pas équipée pour une démonstration de la synchronisation avec un iPad ou une tablette, mais je cède bien volontiers la parole à l'un de vous pour un retour d'expérience concernant cette fonctionnalité.
+Avant la version 6.0 de Zotero publiée en mars 2022, ZotFile permettait d'extraire les annotations et le texte surligné des PDF, pour les restituer dans des notes Zotero. Ces fonctionnalités sont désormais intégrées dans Zotero aussi ont-elles été retirées de ZotFile.
+
+Nous allons voir plus en détails les fonctionnalités 1. Je ne suis pas équipée pour une démonstration de la synchronisation avec un iPad ou une tablette, mais je cède bien volontiers la parole à l'un de vous pour un retour d'expérience concernant cette fonctionnalité.
 
 ### Comment gérez-vous vos PDF actuellement?
 
 🗳️ Comment gérez-vous les PDF et autres fichiers associés aux documents de votre bibliothèque Zotero (c'est-à-dire vos références bibliographiques)?
 
-1. Ces fichiers sont enregistrés **dans** le répertoire `Zotero\storage`, automatiquement par Zotero ou par un ajout manuel de ma part grâce à la fonction _Ajouter une pièce jointe_>_Joindre une copie enregistrée d'un fichier_
-2. Ces fichiers sont enregistrés **en-dehors** du répertoire `Zotero\storage`et ne sont pas liés aux documents Zotero
-3. Ces fichiers sont enregistrés **en-dehors** du répertoire `Zotero\storage`et je les lie aux documents Zotero grâce à la fonction _Ajouter une pièce jointe_>_Joindre un lien vers un fichier_
-4. Je ne comprends pas la question et/ou les options de réponse
+1. Ces fichiers sont enregistrés **dans** le répertoire `Zotero\storage`, automatiquement par Zotero ou par un ajout manuel de ma part grâce à la fonction _Ajouter une pièce jointe_>_Joindre une copie enregistrée d'un fichier_.
+2. Ces fichiers sont enregistrés **en-dehors** du répertoire `Zotero\storage`et ne sont pas liés aux documents Zotero.
+3. Ces fichiers sont enregistrés **en-dehors** du répertoire `Zotero\storage`et je les lie aux documents Zotero grâce à la fonction _Ajouter une pièce jointe_>_Joindre un lien vers un fichier_.
+4. Je ne comprends pas la question et/ou les options de réponse.
 
 
 ### Ressources
@@ -131,7 +132,7 @@ Et son supplément :
 
 📃 Notez vos réponses aux 2 questions suivantes.
 
-* Quel est le format de renommage que vous avez défini? Copiez-collez le ; nous ferons un retour de vive voix pour les options sous forme de cases à cocher.
+* Quel est le format de renommage que vous avez défini? Nous ferons un retour de vive voix pour les options sous forme de cases à cocher.
 * Quelles autres options de renommage vous semblerait-il pertinent de définir?
 
 🕰️ Rendez-vous dans **10 minutes**.
@@ -147,16 +148,14 @@ Et son supplément :
 👓 Commentaire et explication de : [Être ou ne pas être dans Zotero : quel choix pour vos PDF et autres fichiers joints ? schéma au format .pdf](https://github.com/zfrancophone/zfrancophone-blog/blob/master/2019-09-zotfile/zotero_choix_gestion_fichiers.pdf)
 
 
-### 3. Extraire les commentaires des PDF
+### Annoter avec Zotero
 
-👩‍💻 Démo
-
-💡 Même si vous consultez préférentiellement vos commentaires et annotations dans le PDF auquel il sont associés, cette fonctionnalité peut vous intéresser en raison des avantages suivants.
+Les avantages d'intégrer des annotations dans Zotero demeurent, que ces fonctionnalités soient gérées avec ZotFile ou désormais avec Zotero.
 
 * Vos annotations sont **indexées** par le moteur de recherche de Zotero et vous pouvez les interroger au même titre que tout le contenu de votre bibliothèque.
-* Vos annotations sont **transférées dans un format texte indépendant de PDF**. Cela vous permet par exemple de les modifier aisément ultérieurement, de les transférer dans un autre texte, etc. Voir
+* Vos annotations sont **transférées dans un format texte indépendant de PDF**. Cela vous permet par exemple de les modifier aisément ultérieurement, de les transférer dans un autre texte, etc.
 * Grâce à la fonction de **recherche enregistrée** de Zotero, vous pouvez distinguer facilement et automatiquement les documents que vous avez annotés de ceux que vous n'avez pas commentés.
-  La recherche enregistrée permettant d'afficher toutes vos notes est construite de la façon suivante.
+La recherche enregistrée permettant d'afficher toutes vos notes est construite de la façon suivante.
 
   `Type de document`-- `égal`--`Note`
 
@@ -233,9 +232,15 @@ Vous rédigez en LaTeX ou avec un système qui utilise BibTeX? Je vous recommand
 
 Vous souhaitez améliorer encore la gestion de vos pièces jointes, enregistrées dans `Zotero/storage`? Vous pouvez tester [**Zotero Storage Scanner**](https://github.com/retorquere/zotero-storage-scanner)
 
+
 📃 Notez le module que vous allez tester.
 
 Aucune idée? Consultez ![zotero][zotero] [liste complète des modules complémentaires de Zotero](https://www.zotero.org/support/plugins).
+
+Ou encore testez l'un des deux modules ci-dessous, non référencés dans la documentation.
+
+* [**Zotero Tag**](https://github.com/windingwind/zotero-tag) pour gérer ses marqueurs : ajout/ retrait selon des règles, modifications par lot, etc.
+* [**Zotero PDF Translate**](https://github.com/windingwind/zotero-pdf-translate)  pour traduire des extraits de PDF à partir du lecteur de PDF intégré à Zotero.
 
 Toujours pas d'idée? Testez l'un des modules choisis par un autre participant.
 
