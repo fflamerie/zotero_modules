@@ -159,7 +159,7 @@ La recherche enregistrée permettant d'afficher toutes vos notes est construite 
 
   `Type de document`-- `égal`--`Note`
 
-![icone_zotero](img/icone_zotero.png) [Documentation Zotero : Rechercher](https://www.zotero.org/support/fr/searching)
+![icone_zotero](img/icone_zotero.png) [Documentation Zotero : Searching](https://www.zotero.org/support/searching)
 
 ## III. Améliorer les données bibliographiques avec Zutilo et DOI Manager
 
