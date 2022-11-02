@@ -13,22 +13,21 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
 
 <!-- MDTOC maxdepth:2 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:0 -->
 
-- [Objectifs](#objectifs)   
-- [Sommaire](#sommaire)   
 - [Tour de table](#tour-de-table)   
 - [I. Installer et configurer un module complémentaire](#i-installer-et-configurer-un-module-complémentaire)   
    - [ZotFile](#zotfile)   
    - [Zutilo](#zutilo)   
    - [DOI Manager](#doi-manager)   
 - [II. Optimiser la gestion des PDF avec ZotFile](#ii-optimiser-la-gestion-des-pdf-avec-zotfile)   
+   - [Comment gérez-vous vos PDF actuellement?](#comment-gérez-vous-vos-pdf-actuellement)   
    - [Ressources](#ressources)   
    - [1.a Renommer ses fichiers avec ZotFile](#1a-renommer-ses-fichiers-avec-zotfile)   
    - [1.b Déplacer ses fichiers avec ZotFile](#1b-déplacer-ses-fichiers-avec-zotfile)   
-   - [3. Extraire les commentaires des PDF](#3-extraire-les-commentaires-des-pdf)   
+   - [Annoter avec Zotero](#annoter-avec-zotero)   
 - [III. Améliorer les données bibliographiques avec Zutilo et DOI Manager](#iii-améliorer-les-données-bibliographiques-avec-zutilo-et-doi-manager)   
    - [Zutilo](#zutilo)   
    - [DOI Manager](#doi-manager)   
-- [IV. "The stage is yours" : vos modules](#iv-the-stage-is-yours-vos-modules)   
+- [IV. A vous : testez un ou plusieurs modules](#iv-a-vous-testez-un-ou-plusieurs-modules)   
 
 <!-- /MDTOC -->
 
@@ -37,7 +36,7 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
 
 ## Tour de table
 
-* D'où venez-vous : à quelle unité / institution appartenez-vous
+* D'où venez-vous : à quelle unité / institution appartenez-vous?
 * Quel est votre domaine de recherche?
 * Qu'attendez-vous du stage?
 
@@ -159,7 +158,40 @@ La recherche enregistrée permettant d'afficher toutes vos notes est construite 
 
   `Type de document`-- `égal`--`Note`
 
-![icone_zotero](img/icone_zotero.png) [Documentation Zotero : Searching](https://www.zotero.org/support/searching)
+![zotero][zotero] [Documentation Zotero : Rechercher](https://docs.zotero-fr.org/searching)
+
+Le lecteur de PDF et l'éditeur de notes de Zotero 6 offrent de plus de nombreuses autres fonctionnalités, dont voici un aperçu.
+
+* Ouvrir les PDF dans un lecteur intégré à la fenêtre principale de Zotero, dans une interface à onglets.
+* Modifier les informations bibliographiques d’un document tout en visualisant le PDF associé.
+* Annoter les PDF avec des surlignages et des annotations d'image et d'extraits de texte, **en intégrant systématiquement les informations de citation**.
+* **Ajouter les annotations dans des notes Zotero** : créer automatiquement une note à partir de toutes les annotations d'un PDF, ou ajouter des annotations provenant de différents PDF à une même note.
+* **Citer depuis les annotations** :  le nouveau bouton "Add Note" dans le module de traitement de texte insère le contenu d'une note Zotero et les citations associées.
+
+#### Stockage, import et export des annotations de PDF
+
+* Les annotations créées dans le lecteur de PDF de Zotero ne sont pas lisibles directement dans un lecteur de PDF externe. Elles ne sont en effet pas stockées dans le fichier PDF mais dans votre base de données Zotero. Elles peuvent bien sûr être exportées.
+* Zotero peut **importer les annotations** effectuées dans un lecteur de PDF externe, comme le faisait ZotFile.
+
+#### Ressources
+
+📺 Vidéo de "La Boîte à outils des  historien·ne·s" concernant le lecteur de PDF de Zotero v6 :
+
+Heimburger, F. (2022, avril 21). Découvrir Zotero 6 - Le lecteur de pdf et la prise de notes en vidéo. La boîte à outils des historien·ne·s. https://boiteaoutils.info/2022/04/decouvrir-zotero-6-le-lecteur-de-pdf-et-la-prise-de-notes-en-video/
+
+📑Mini-tutoriels sur Twitter :
+
+Bilal, M. (2022, août 30). Zotero 101 : A step-by-step guide with visuals [how to take notes and annotate PDFs in Zotero]. Twitter. https://twitter.com/MushtaqBilalPhD/status/1564522758696013824
+
+Bilal, M. (2022, septembre 11). Zotero 101 : A step-by-step guide with visuals [how to make groups and do « collaborative annotations. »]. Twitter. https://twitter.com/MushtaqBilalPhD/status/1568829219383218179
+
+Bilal, M. (2022, octobre 17). Zotero 101 : A step-by-step guide with visuals [how to supercharge your writing using Zotero’s Note Editor]. Twitter. https://twitter.com/MushtaqBilalPhD/status/1581927147685687297
+
+
+![zotero][zotero] [Documentation Zotero : Le lecteur PDF et l'éditeur de notes de Zotero](https://docs.zotero-fr.org/pdf_reader)
+
+![zotero][zotero] [Base de connaissance Zotero : Pourquoi Zotero stocke-t-il les annotations PDF dans sa base de données plutôt que dans le fichier PDF ?](https://docs.zotero-fr.org/kb/annotations_in_database)
+
 
 ## III. Améliorer les données bibliographiques avec Zutilo et DOI Manager
 
@@ -201,6 +233,11 @@ Préférences avancées à modifier :
   `extensions.zutilo.quickcopy_alt2` -> préciser le format
   `export.quickCopy.setting` -> afficher la chaîne de caractères du format de sortie en cours de sélection-->
 
+Notez que les 2 fonctionnalités suivantes sont désormais intégrées à Zotero, sous des intitulés différents, mais avec un fonctionnement similaire.
+
+* Créer une notice "Chapitre de livre"  - _fonctionnalité Zotero correspondante : Créer un Chapitre de livre_
+* Créer une notice "Livre" - _fonctionnalité Zotero correspondante : Créer un Livre à partir du Chapitre de livre_ 
+
 ### DOI Manager
 
 Voici les principales fonctionnalités de DOI Manager.
@@ -218,7 +255,7 @@ _Traduit de la [présentation de DOI Manager - fichier README](https://github.co
  * **Améliorer les performances des options de localisation de Zotero** : les performances des moteurs de recherche intégrés à Zotero peuvent être augmentés par le DOI, car ce dernier constitue un critère d'identification (et de recherche) univoque. Voir le billet du blog Zotero francophone : [Les moteurs de recherche intégrés à Zotero](https://zotero.hypotheses.org/3388)
 
 
-## IV. "The stage is yours" : vos modules
+## IV. A vous : testez un ou plusieurs modules
 
 🛠️
 
@@ -237,10 +274,11 @@ Vous souhaitez améliorer encore la gestion de vos pièces jointes, enregistrée
 
 Aucune idée? Consultez ![zotero][zotero] [liste complète des modules complémentaires de Zotero](https://www.zotero.org/support/plugins).
 
-Ou encore testez l'un des deux modules ci-dessous, non référencés dans la documentation.
+Ou encore testez l'un des modules ci-dessous, non référencés dans la documentation.
 
 * [**Zotero Tag**](https://github.com/windingwind/zotero-tag) pour gérer ses marqueurs : ajout/ retrait selon des règles, modifications par lot, etc.
 * [**Zotero PDF Translate**](https://github.com/windingwind/zotero-pdf-translate)  pour traduire des extraits de PDF à partir du lecteur de PDF intégré à Zotero.
+* [**Zotero Duplicates Merger**](https://github.com/frangoud/ZoteroDuplicatesMerger) pour fusionner par lot des doublons.
 
 Toujours pas d'idée? Testez l'un des modules choisis par un autre participant.
 
@@ -252,7 +290,6 @@ Toujours pas d'idée? Testez l'un des modules choisis par un autre participant.
 
 
 [zotero]: img/icone_zotero.png
-
 
 
 # Crédits
