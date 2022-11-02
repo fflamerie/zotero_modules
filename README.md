@@ -4,7 +4,7 @@ Matériel de la formation ["Approfondissement Zotero : optimiser la gestion de v
 
 ## Objectifs
 
-* Utiliser les modules complémentaires [ZotFile](http://zotfile.com/),[Zutilo](https://github.com/willsALMANJ/Zutilo) et [DOI Manager](https://github.com/bwiernik/zotero-shortdoi) pour enrichir et optimiser sa bibliothèque Zotero
+* Utiliser les modules complémentaires [ZotFile](http://zotfile.com/), [Zutilo](https://github.com/willsALMANJ/Zutilo) et [DOI Manager](https://github.com/bwiernik/zotero-shortdoi) pour enrichir et optimiser sa bibliothèque Zotero
 * Identifier, installer et utiliser d'autres modules complémentaires de Zotero en fonction de ses besoins : [consulter la liste complète des modules complémentaires de Zotero](https://www.zotero.org/support/plugins)
 
 ## Supports de formation
