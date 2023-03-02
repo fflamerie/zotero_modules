@@ -236,7 +236,7 @@ Préférences avancées à modifier :
 Notez que les 2 fonctionnalités suivantes sont désormais intégrées à Zotero, sous des intitulés différents, mais avec un fonctionnement similaire.
 
 * Créer une notice "Chapitre de livre"  - _fonctionnalité Zotero correspondante : Créer un Chapitre de livre_
-* Créer une notice "Livre" - _fonctionnalité Zotero correspondante : Créer un Livre à partir du Chapitre de livre_ 
+* Créer une notice "Livre" - _fonctionnalité Zotero correspondante : Créer un Livre à partir du Chapitre de livre_
 
 ### DOI Manager
 
@@ -274,11 +274,11 @@ Vous souhaitez améliorer encore la gestion de vos pièces jointes, enregistrée
 
 Aucune idée? Consultez ![zotero][zotero] [liste complète des modules complémentaires de Zotero](https://www.zotero.org/support/plugins).
 
-Ou encore testez l'un des modules ci-dessous, non référencés dans la documentation.
+Ou encore testez l'un des modules ci-dessous.
 
 * [**Zotero Tag**](https://github.com/windingwind/zotero-tag) pour gérer ses marqueurs : ajout/ retrait selon des règles, modifications par lot, etc.
 * [**Zotero PDF Translate**](https://github.com/windingwind/zotero-pdf-translate)  pour traduire des extraits de PDF à partir du lecteur de PDF intégré à Zotero.
-* [**Zotero Duplicates Merger**](https://github.com/frangoud/ZoteroDuplicatesMerger) pour fusionner par lot des doublons.
+* [**Zotero Duplicates Merger**](https://github.com/frangoud/ZoteroDuplicatesMerger) (non référencé dans la documentation) pour fusionner par lot des doublons.
 
 Toujours pas d'idée? Testez l'un des modules choisis par un autre participant.
 
