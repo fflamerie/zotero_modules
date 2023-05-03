@@ -13,6 +13,8 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
 
 <!-- MDTOC maxdepth:2 firsth1:0 numbering:0 flatten:0 bullets:1 updateOnSave:0 -->
 
+- [Objectifs](#objectifs)   
+- [Sommaire](#sommaire)   
 - [Tour de table](#tour-de-table)   
 - [I. Installer et configurer un module complémentaire](#i-installer-et-configurer-un-module-complémentaire)   
    - [ZotFile](#zotfile)   
@@ -27,7 +29,7 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
 - [III. Améliorer les données bibliographiques avec Zutilo et DOI Manager](#iii-améliorer-les-données-bibliographiques-avec-zutilo-et-doi-manager)   
    - [Zutilo](#zutilo)   
    - [DOI Manager](#doi-manager)   
-- [IV. A vous : testez un ou plusieurs modules](#iv-a-vous-testez-un-ou-plusieurs-modules)   
+- [IV. A vous de tester un ou plusieurs modules](#iv-a-vous-de-tester-un-ou-plusieurs-modules)   
 
 <!-- /MDTOC -->
 
@@ -255,7 +257,7 @@ _Traduit de la [présentation de DOI Manager - fichier README](https://github.co
  * **Améliorer les performances des options de localisation de Zotero** : les performances des moteurs de recherche intégrés à Zotero peuvent être augmentés par le DOI, car ce dernier constitue un critère d'identification (et de recherche) univoque. Voir le billet du blog Zotero francophone : [Les moteurs de recherche intégrés à Zotero](https://zotero.hypotheses.org/3388)
 
 
-## IV. A vous : testez un ou plusieurs modules
+## IV. A vous de tester un ou plusieurs modules
 
 🛠️
 
@@ -276,9 +278,12 @@ Aucune idée? Consultez ![zotero][zotero] [liste complète des modules compléme
 
 Ou encore testez l'un des modules ci-dessous.
 
+* [**ZoteroPreview**](https://github.com/dcartertod/zotero-plugins) pour ajouter un onglet de prévisualisation de la référence bibliographique mise en forme dans le panneau de droite de Zotero.
 * [**Zotero Tag**](https://github.com/windingwind/zotero-tag) pour gérer ses marqueurs : ajout/ retrait selon des règles, modifications par lot, etc.
-* [**Zotero PDF Translate**](https://github.com/windingwind/zotero-pdf-translate)  pour traduire des extraits de PDF à partir du lecteur de PDF intégré à Zotero.
+* [**Zotero PDF Translate**](https://github.com/windingwind/zotero-pdf-translate)  pour traduire des extraits de PDF à partir du lecteur de PDF intégré à Zotero, traduire automatiquement le titre et le résumé d'un document sélectionné dans sa bibliothèque Zotero, etc.
+* [**Zotero Style**](https://github.com/MuiseDestiny/zotero-style) (non référencé dans la documentation) pour ajouter des colonnes au panneau central de Zotero et les personnaliser, créer des marqueurs hiérarchisés, attribuer des étoiles de favori à des documents, afficher la progression dans la lecture des PDF, etc.
 * [**Zotero Duplicates Merger**](https://github.com/frangoud/ZoteroDuplicatesMerger) (non référencé dans la documentation) pour fusionner par lot des doublons.
+
 
 Toujours pas d'idée? Testez l'un des modules choisis par un autre participant.
 
