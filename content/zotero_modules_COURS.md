@@ -11,11 +11,11 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
 
 - [0. Tour de table](#0-tour-de-table)   
 - [1. Installer et configurer un module complémentaire](#1-installer-et-configurer-un-module-complémentaire)   
-- [2. Optimiser la gestion des PDF avec Attanger](#2-optimiser-la-gestion-des PDF-avec-Attanger)  
-- [3. Optimiser l'organisation de sa bibliothèque avec Actions & Tags](#3-Optimiser-l-organisation-de-sa-bibliothèque-avec-actions-&-tags)  
-- [4. Améliorer les données bibliographiques avec Linter et Zotero Abstract Cleaner](#4-améliorer-les-données-bibliographiques-avec-Linter-et-Zotero Abstract-Cleaner)
-- [5. ZoteroPreview pour vérifier la mise en forme de ses citations et de ses références](#5-ZoteroPreview-pour-vérifier-la mise-en-forme-de-ses-citations-et-de-ses-références)
-- [6. A vous de tester un ou plusieurs modules](#6-A-vous-de-tester-un-ou-plusieurs-modules)
+- [2. Optimiser la gestion des PDF avec Attanger](#2-optimiser-la-gestion-des-pdf-avec-attanger)  
+- [3. Optimiser l'organisation de sa bibliothèque avec Actions and Tags](#3-optimiser-lorganisation-de-sa-bibliothèque-avec-actions-and-tags)  
+- [4. Améliorer les données bibliographiques avec Linter et Zotero Abstract Cleaner](#4-améliorer-les-données-bibliographiques-avec-linter-et-zotero-abstract-cleaner)
+- [5. ZoteroPreview pour vérifier la mise en forme des citations et des références](#5-zoteropreview-pour-vérifier-la-mise-en-forme-des-citations-et-des-références)
+- [6. A vous de tester un ou plusieurs modules](#6-a-vous-de-tester-un-ou-plusieurs-modules)
 
 
 ## 0. Tour de table
@@ -34,7 +34,7 @@ L’installation d’un module complémentaire dans Zotero consiste à charger d
 
 Il faut parfois redémarrer Zotero pour finaliser l’installation.
 
-![fenêtre d'installation d'un module complémentaire](img/install_module.png)
+![fenêtre d'installation d'un module complémentaire](img/zotero_gest_modules_compl.png)
 
 ### Où trouver le fichier d'installation d'un module complémentaire?
 
@@ -63,7 +63,7 @@ Avec Zotero 7, Zotero dispose désormais d'une fonctionnalité de renommage des 
 
 ![zotero][zotero] [Documentation Zotero : Renommage des fichiers](https://docs.zotero-fr.org/file_renaming/).
 
-Attanger reprend quant à lui fonctionnalités de **déplacement des fichiers** avec 2 cas d'usage :
+_Attanger_ reprend quant à lui fonctionnalités de **déplacement des fichiers** avec 2 cas d'usage :
 
 1. déplacer automatiquement les fichiers dans un répertoire défini hors de Zotero si on choisit de gérer ses PDF en-dehors de Zotero,
 2. attacher automatiquement au document en cours de sélection dans la bibliothèque Zotero le dernier fichier PDF téléchargé dans un répertoire défini.
@@ -85,9 +85,9 @@ Et son supplément :
 
 Être ou ne pas être dans Zotero : quel choix pour vos PDF et autres fichiers joints ? - [schéma au format .odg](https://github.com/zfrancophone/zfrancophone-blog/blob/master/2019-09-zotfile/zotero_choix_gestion_fichiers.odg) et [schéma au format .pdf](https://github.com/zfrancophone/zfrancophone-blog/blob/master/2019-09-zotfile/zotero_choix_gestion_fichiers.pdf)
 
-### Joindre automatiquement le dernier fichier PDF téléchargé avec Zotero Attanger
+### Joindre automatiquement le dernier fichier PDF téléchargé avec Attanger
 
-Pour utiliser cette fonctionnalité, il convient d'effectuer les 2 réglages suivants dans les paramètres d'Attanger.
+Pour utiliser cette fonctionnalité, il convient d'effectuer les 2 réglages suivants dans les paramètres d'_Attanger_.
 
 * _Source Path_ : on indique ici le répertoire source à partir duquel chercher les fichiers PDF à joindre automatiquement. Cela peut être par exemple le dossier _Téléchargements_.
 * _Attach Type_ : on choisit ici la valeur _Stored Copy_ si on gère ses fichiers joints dans Zotero.
@@ -96,7 +96,7 @@ Pour utiliser cette fonctionnalité, il convient d'effectuer les 2 réglages sui
 
 Quand on a sélectionné dans la bibliothèque Zotero le document auquel on souhaite attacher le dernier fichier PDF téléchargé, il faut alors cliquer sur l'option _Match Attachment_ du menu contextuel.
 
-## 3. Optimiser l'organisation de sa bibliothèque avec Actions & Tags
+## 3. Optimiser l'organisation de sa bibliothèque avec Actions and Tags
 
 ### Aperçu
 
@@ -114,7 +114,7 @@ Enregistrez un document (**avec ou sans fichier joint**) dans votre bibliothèqu
 
 Ouvrez **le fichier PDF joint** à ce document, lisez-le et refermez-le. Le marqueur `/unread` est automatiquement retiré du document.
 
-### Créer des actions avec _Actions & Tags_
+### Créer des actions
 
 _Actions & Tags_ s'adresse tant aux utilisateurs novices qu'aux utilisateurs experts, dotés de connaissances en codage informatique. Il permet en effet à la fois :
 
@@ -261,13 +261,13 @@ Le nettoyage effectué par Zotero Abstract Cleaner porte sur un seul point, mais
 
 Quand on colle un extrait de texte copié depuis un fichier PDF, on peut avoir la désagréable surprise de constater que chaque ligne est considérée comme un paragraphe et donc terminée par un saut de ligne.
 
-![Résumé avec des sauts de ligne et option Fix Line Endings in Abstract](img/zotero_modules_resume2.png)
+![Résumé avec des sauts de ligne et option Fix Line Endings in Abstract](img/zotero_modules_resume.png)
 
 Zotero Abstract Cleaner supprime automatiquement tous ces sauts de ligne. Il convient pour ce faire de sélectionner les documents dans la bibliothèque Zotero, puis de choisir l'option _Fix Line Endings in Abstract_ dans le menu contextuel.
 
 ![Résumé nettoyé par Abstract Cleaner](img/zotero_modules_resume2.png)
 
-## 5. ZoteroPreview pour vérifier la mise en forme de ses citations et de ses références
+## 5. ZoteroPreview pour vérifier la mise en forme des citations et des références
 
 [ZoteroPreview](https://github.com/dcartertod/zotero-plugins) offre un affichage immédiat de la mise en forme effectuée par un style bibliographique, en revanche il n’est pas possible de sélectionner plusieurs références ni plusieurs styles en même temps. Pour sélectionner plusieurs références et/ou plusieurs styles en même temps, il convient d'utiliser l'_Aperçu des styles_ intégré à Zotero.
 
@@ -298,7 +298,9 @@ Vous souhaitez intégrer dans Zotero le suivi des citations des articles? Voici 
 * [Zotero 7 Citation Counts Manager](https://github.com/FrLars21/ZoteroCitationCountsManager)
 * [Scite Zotero Plugin](https://github.com/scitedotai/scite-zotero-plugin)
 
-Aucune idée? Consultez ![zotero][zotero] [liste complète des modules complémentaires de Zotero](https://www.zotero.org/support/plugins). Tous les modules présentés dans cette liste ne sont toutefois pas compatibles avec Zotero 7. La discussion [Zotero 7 Plugins](https://forums.zotero.org/discussion/105151/zotero-7-plugins/p2) sur le forum Zotero recense une partie des modules compatibles avec Zotero 7.
+Aucune idée?
+
+Consultez ![zotero][zotero] [liste complète des modules complémentaires de Zotero](https://www.zotero.org/support/plugins). Tous les modules présentés dans cette liste ne sont toutefois pas compatibles avec Zotero 7. La discussion [Zotero 7 Plugins](https://forums.zotero.org/discussion/105151/zotero-7-plugins/p2) sur le forum Zotero recense une partie des modules compatibles avec Zotero 7.
 
 Voici encore 2 suggestions.
 
