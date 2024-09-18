@@ -25,9 +25,9 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
 
 ## 1. Installer et configurer un module complémentaire
 
-L’installation d’un module complémentaire dans Zotero consiste à charger dans Zotero un fichier d’un format particulier, le format `.xpi`. Ainsi, pour installer un module complémentaire, il faut procéder selon les étapes suivantes.
+L’installation d’un module complémentaire dans Zotero consiste à charger dans Zotero un fichier d’un format particulier, le format `.xpi`. Voici les étapes à suivre.
 
-* Enregistrer sur son ordinateur le fichier `.xpi`mis à disposition sur le site du module complémentaire que l’on souhaite installer.
+* Enregistrer sur son ordinateur le fichier `.xpi` mis à disposition sur le site du module complémentaire que l’on souhaite installer.
 * Dans Zotero, aller dans le menu _Outils_ > _Extensions_.
 * Cliquer sur la roue dentée et choisir _Install Plugin From File_.
 * Sélectionner et charger le fichier `.xpi`.
@@ -65,42 +65,40 @@ Avec Zotero 7, Zotero dispose désormais d'une fonctionnalité de renommage des 
 
 _Attanger_ reprend quant à lui fonctionnalités de **déplacement des fichiers** avec 2 cas d'usage :
 
-1. déplacer automatiquement les fichiers dans un répertoire défini hors de Zotero si on choisit de gérer ses PDF en-dehors de Zotero,
+1. déplacer automatiquement les fichiers joints dans un répertoire défini **hors de Zotero** si on choisit de gérer ces fichiers en dehors de Zotero,
 2. attacher automatiquement au document en cours de sélection dans la bibliothèque Zotero le dernier fichier PDF téléchargé dans un répertoire défini.
 
 ### Comment gérez-vous vos PDF actuellement?
 
-🗳️ Comment gérez-vous les PDF et autres fichiers associés aux documents de votre bibliothèque Zotero (c'est-à-dire vos références bibliographiques)?
+🗳️ Comment gérez-vous les PDF et autres fichiers joints aux documents de votre bibliothèque Zotero ?
 
 1. Ces fichiers sont enregistrés **dans** le répertoire `Zotero\storage`, automatiquement par Zotero ou par un ajout manuel de ma part grâce à la fonction _Ajouter une pièce jointe_>_Joindre une copie enregistrée d'un fichier_.
-2. Ces fichiers sont enregistrés **en-dehors** du répertoire `Zotero\storage`et ne sont pas liés aux documents Zotero.
-3. Ces fichiers sont enregistrés **en-dehors** du répertoire `Zotero\storage`et je les lie aux documents Zotero grâce à la fonction _Ajouter une pièce jointe_>_Joindre un lien vers un fichier_.
+2. Ces fichiers sont enregistrés **en dehors** du répertoire `Zotero\storage`et ne sont pas liés aux documents Zotero.
+3. Ces fichiers sont enregistrés **en dehors** du répertoire `Zotero\storage`et je les lie aux documents Zotero grâce à la fonction _Ajouter une pièce jointe_>_Joindre un lien vers un fichier_.
 4. Je ne comprends pas la question et/ou les options de réponse.
 
 #### Ressources
 
 Billet du blog Zotero francophone : [ZotFile : un outil pour gérer vos PDF](https://zotero.hypotheses.org/2838)
 
-Et son supplément :
+Et son supplément : Être ou ne pas être dans Zotero : quel choix pour vos PDF et autres fichiers joints ? - [schéma au format .odg](https://github.com/zfrancophone/zfrancophone-blog/blob/master/2019-09-zotfile/zotero_choix_gestion_fichiers.odg) et [schéma au format .pdf](https://github.com/zfrancophone/zfrancophone-blog/blob/master/2019-09-zotfile/zotero_choix_gestion_fichiers.pdf)
 
-Être ou ne pas être dans Zotero : quel choix pour vos PDF et autres fichiers joints ? - [schéma au format .odg](https://github.com/zfrancophone/zfrancophone-blog/blob/master/2019-09-zotfile/zotero_choix_gestion_fichiers.odg) et [schéma au format .pdf](https://github.com/zfrancophone/zfrancophone-blog/blob/master/2019-09-zotfile/zotero_choix_gestion_fichiers.pdf)
-
-### Joindre automatiquement le dernier fichier PDF téléchargé avec Attanger
+### Joindre automatiquement le dernier fichier PDF téléchargé
 
 Pour utiliser cette fonctionnalité, il convient d'effectuer les 2 réglages suivants dans les paramètres d'_Attanger_.
 
 * _Source Path_ : on indique ici le répertoire source à partir duquel chercher les fichiers PDF à joindre automatiquement. Cela peut être par exemple le dossier _Téléchargements_.
-* _Attach Type_ : on choisit ici la valeur _Stored Copy_ si on gère ses fichiers joints dans Zotero.
+* _Attach Type_ : on choisit la valeur _Stored Copy_ si on enregistre ses fichiers joints dans Zotero.
 
 ![Fenêtre de paramétrage d'Attanger](img/zotero_modules_pref_attanger.png)
 
-Quand on a sélectionné dans la bibliothèque Zotero le document auquel on souhaite attacher le dernier fichier PDF téléchargé, il faut alors cliquer sur l'option _Match Attachment_ du menu contextuel.
+Une fois sélectionné dans la bibliothèque Zotero le document auquel on souhaite joindre le dernier fichier PDF téléchargé dans le dossier source, il suffit de cliquer sur l'option _Match Attachment_ du menu contextuel.
 
 ## 3. Optimiser l'organisation de sa bibliothèque avec Actions and Tags
 
 ### Aperçu
 
-_Actions & Tags_ vous permet d'optimiser votre organisation et votre flux de travail, en définissant des actions déclenchées automatiquement et/ou manuellement. Ces actions peuvent effectuer différentes opérations, notamment l'ajout et le retrait de marqueurs (ce qui explique le nom de ce module).
+_Actions & Tags_ vous permet d'optimiser votre organisation et votre flux de travail, en définissant des actions déclenchées automatiquement et/ou manuellement. Ces actions peuvent effectuer différentes opérations, notamment l'ajout et le retrait de marqueurs.
 
 Vous pouvez également créer des scripts personnalisés, pour [remplacer un marqueur par un autre](https://github.com/windingwind/zotero-actions-tags/discussions/113) ou encore [générer automatiquement une note lors de l'ouverture d'un document](https://github.com/windingwind/zotero-actions-tags/discussions/108).
 
@@ -143,7 +141,7 @@ Avec la valeur _None_, l'action est ne peut pas être déclenchée automatiqueme
 | Evénement              | Description : l'action est déclenchée  quand...        |
 | ------------------ | --------------------------------------------------------- |
 | `Create Item`       | Un document est créé.             |
-| `Open File`         | Le fichier joint est fermé.        |
+| `Open File`         | Le fichier joint est ouvert.        |
 | `Close Tab`         | L'onglet du lecteur de PDF est fermé.     |
 | `Create Annotation` | Une annotation est créée.                  |
 | `Create Note`       | Une note est créée.                         |
@@ -157,7 +155,7 @@ Avec la valeur _None_, l'action est ne peut pas être déclenchée automatiqueme
 
 ##### Opération effectuée par l'action : _Operation_
 
-Les seules opérations prédéfinies concernent les marqueurs.
+Les opérations prédéfinies concernent principalement les marqueurs.
 
 <details style="text-indent: 4em">
 <summary>Afficher les opérations prises en charge</summary>
@@ -196,7 +194,7 @@ Il existe déjà des scripts personnalisés, créés par des utilisateurs ou par
 
 📝 Installez le script personnalisé [Collection Tags](https://github.com/windingwind/zotero-actions-tags/discussions/245), en choisissant les libellés et/ou le raccourci-clavier qui vous conviennent le mieux. Vous pouvez également opter pour un fonctionnement entièrement manuel.
 
-📝 Parmi tous [**les scripts personnalisés référencés**](https://github.com/windingwind/zotero-actions-tags/discussions/categories/action-scripts), d'autres vous sembleraient-ils utiles? Lesquels?
+📝 Parmi tous [les scripts personnalisés référencés](https://github.com/windingwind/zotero-actions-tags/discussions/categories/action-scripts), d'autres vous sembleraient-ils utiles? Lesquels?
 
 ## 4. Améliorer les données bibliographiques avec Linter et Zotero Abstract Cleaner
 
@@ -213,7 +211,7 @@ Les corrections effectuées par _Linter_ peuvent être lancées sur une sélecti
 
 📌 Ces corrections peuvent être configurées et/ou désactivées de la commande _Lint and Fix_ dans les paramètres de _Linter_.
 
-Parmi les multiples fonctionnalités de _Linter_, nous retenons celles que nous avons pu tester avec succès et qui nous semblent d'un usage courant et partagé.
+Parmi les multiples fonctionnalités de _Linter_, nous retenons celles que nous avons pu tester avec succès et qui nous semblent de l'usage le plus courant.
 
 #### Corriger la casse des titres, des titres de revues et des auteurs
 
@@ -231,7 +229,7 @@ _Linter_ peut compléter et/ou corriger le champ "Abrév. de revue" automatiquem
 
 * L'abréviation doit être présente et conforme à [la norme ISO4](https://fr.wikipedia.org/wiki/ISO_4).
 * L'abréviation doit correspondre à celle présente **dans une liste personnalisée** que vous devez alors charger dans l'application (fonctionnalité non testée par nos soins).
-* L'abréviation doit être inférée du titre de la revue selon les règles d'abréviation standardisées internationales.
+* L'abréviation est déduite du titre de la revue selon les règles d'abréviation standardisées internationales.
 
 #### Normaliser les données de certains champs
 
@@ -251,27 +249,27 @@ Avec _Linter_, les raccourcis clavier courants (ceux de Microsoft Word par exemp
 - Indice : `Ctrl` + `=`
 - Gras : `Ctrl` + `B`
 - Italique : `Ctrl` + `I`
-- Pas de casse: `Ctrl` + `N` - Le paramètre `class="nocase"` empêche ceratins noms spéciaux de se voir attribués une initiale en majuscule comme le prévoit par défaut la casse de phrase de CSL.
+- Pas de casse: `Ctrl` + `N` - Le paramètre `class="nocase"` empêche certains noms spéciaux de se voir attribués une initiale en majuscule comme le prévoit par défaut la casse de phrase de CSL.
 
 ⚠️ Il ne s'agit pas là d'une correction intégrée aux commandes _Lint_. Elle ne fait pas l'objet de réglages dans les paramètres de _Linter_.
 
 ### Zotero Abstract Cleaner pour nettoyer les résumés
 
-Le nettoyage effectué par Zotero Abstract Cleaner porte sur un seul point, mais cette unique modification évite de fastidieuses modifications manuelles et améliore nettement la lisibilité du résumé.
+Le nettoyage effectué par _Zotero Abstract Cleaner_ porte sur un seul point, mais cette unique modification évite de fastidieuses modifications manuelles et améliore nettement la lisibilité du résumé.
 
-Quand on colle un extrait de texte copié depuis un fichier PDF, on peut avoir la désagréable surprise de constater que chaque ligne est considérée comme un paragraphe et donc terminée par un saut de ligne.
+Quand on colle un extrait de texte copié depuis un fichier PDF, on peut avoir la désagréable surprise de constater que chaque ligne du PDF est considérée comme un paragraphe et donc terminée par un saut de ligne.
 
 ![Résumé avec des sauts de ligne et option Fix Line Endings in Abstract](img/zotero_modules_resume.png)
 
-Zotero Abstract Cleaner supprime automatiquement tous ces sauts de ligne. Il convient pour ce faire de sélectionner les documents dans la bibliothèque Zotero, puis de choisir l'option _Fix Line Endings in Abstract_ dans le menu contextuel.
+_Zotero Abstract Cleaner_ supprime automatiquement tous ces sauts de ligne. Il convient pour ce faire de sélectionner les documents à traiter dans la bibliothèque Zotero, puis de choisir l'option _Fix Line Endings in Abstract_ dans le menu contextuel.
 
 ![Résumé nettoyé par Abstract Cleaner](img/zotero_modules_resume2.png)
 
 ## 5. ZoteroPreview pour vérifier la mise en forme des citations et des références
 
-[ZoteroPreview](https://github.com/dcartertod/zotero-plugins) offre un affichage immédiat de la mise en forme effectuée par un style bibliographique, en revanche il n’est pas possible de sélectionner plusieurs références ni plusieurs styles en même temps. Pour sélectionner plusieurs références et/ou plusieurs styles en même temps, il convient d'utiliser l'_Aperçu des styles_ intégré à Zotero.
+_ZoteroPreview_ offre un affichage immédiat de la mise en forme effectuée par un style bibliographique, en revanche il n’est pas possible de sélectionner plusieurs références ni plusieurs styles en même temps. Pour sélectionner plusieurs références et/ou plusieurs styles en même temps, il convient d'utiliser l'_Aperçu des styles_ intégré à Zotero.
 
-ZoteroPreview affiche un aperçu de la citation et/ou de l'entrée bibliographique du document dans le panneau de droite, avec un bouton de copie.
+_ZoteroPreview_ affiche un aperçu de la citation et/ou de l'entrée bibliographique du document dans le panneau de droite, avec un bouton de copie.
 
 ![ZoteroPreview : la prévisualisation d'un document et les boutons de copie](img/zotero_preview_ref.png)
 
@@ -291,9 +289,9 @@ Chacun d'entre vous va installer et tester le module de son choix.
 
 Plusieurs personnes peuvent tester le même module.
 
-Vous rédigez en LaTeX ou avec un système qui utilise BibTeX? Si vous ne l'utilisez pas déjà testez [**BetterBibTeX**](https://retorque.re/zotero-better-bibtex/).
+Vous rédigez en LaTeX ou avec un système qui utilise **BibTeX**? Si vous ne l'utilisez pas déjà testez [**BetterBibTeX**](https://retorque.re/zotero-better-bibtex/).
 
-Vous souhaitez intégrer dans Zotero le suivi des citations des articles? Voici 2 modules compatibles avec Zotero 7 pour cela.
+Vous souhaitez intégrer dans Zotero le **suivi des citations** des articles? Voici 2 modules compatibles avec Zotero 7 pour cela.
 
 * [Zotero 7 Citation Counts Manager](https://github.com/FrLars21/ZoteroCitationCountsManager)
 * [Scite Zotero Plugin](https://github.com/scitedotai/scite-zotero-plugin)
