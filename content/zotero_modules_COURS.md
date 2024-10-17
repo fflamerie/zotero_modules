@@ -52,7 +52,7 @@ Un lien de téléchargement du fichier `.xpi` est parfois affiché dans le texte
 
 * [Attanger](https://github.com/MuiseDestiny/zotero-attanger)
 * [Actions & Tags](https://github.com/windingwind/zotero-actions-tags)
-* [Linter for Zotero](https://github.com/northword/zotero-format-metadata)
+* [Linter](https://github.com/northword/zotero-format-metadata)
 * [ZoteroPreview et Zotero Abstract Cleaner](https://github.com/dcartertod/zotero-plugins)
 
 ## 2. Optimiser la gestion des PDF avec Attanger
@@ -303,7 +303,7 @@ Consultez ![zotero][zotero] [liste complète des modules complémentaires de Zot
 Voici encore 2 suggestions.
 
 * [**Zotero PDF Translate**](https://github.com/windingwind/zotero-pdf-translate)  pour traduire des extraits de PDF à partir du lecteur de PDF intégré à Zotero, traduire automatiquement le titre et le résumé d'un document sélectionné dans sa bibliothèque Zotero, etc.
-* [**Zotero Duplicates Merger**](https://github.com/frangoud/ZoteroDuplicatesMerger) (non référencé dans la documentation) pour fusionner par lot des doublons.
+* [**Zoplicate**](https://github.com/ChenglongMa/zoplicate) pour améliorer la gestion des doublons et par exemple les fusionner par lot.
 
 Toujours pas d'idée? Testez l'un des modules choisis par un autre participant.
 
