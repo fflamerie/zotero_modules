@@ -1,21 +1,21 @@
-# Approfondissement Zotero : les modules complémentaires de Zotero
+# Approfondissement Zotero : les extensions de Zotero
 
 L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris les discussions du forum Zotero : c'est la meilleure source d'information et d'aide!
 
 ## Objectifs
 
-* Utiliser des modules complémentaires pour optimiser l’usage courant de sa bibliothèque Zotero : modifications des données bibliographiques, gestion des marqueurs, organisation de la bibliothèque, etc.
-* Identifier, installer et utiliser d'autres modules complémentaires de Zotero en fonction de ses besoins - ![zotero][zotero] [liste complète des modules complémentaires de Zotero](https://www.zotero.org/support/plugins)
+* Utiliser des extensions pour optimiser l’usage courant de sa bibliothèque Zotero : modifications des données bibliographiques, gestion des marqueurs, organisation de la bibliothèque, etc.
+* Identifier, installer et utiliser d'autres extensions de Zotero en fonction de ses besoins - ![zotero][zotero] [liste complète des extensions de Zotero](https://www.zotero.org/support/plugins)
 
 ## Sommaire
 
 - [0. Tour de table](#0-tour-de-table)   
-- [1. Installer et configurer un module complémentaire](#1-installer-et-configurer-un-module-complémentaire)   
+- [1. Installer et configurer une extension](#1-installer-et-configurer-une-extension)   
 - [2. Optimiser la gestion des PDF avec Attanger](#2-optimiser-la-gestion-des-pdf-avec-attanger)  
 - [3. Optimiser l'organisation de sa bibliothèque avec Actions and Tags](#3-optimiser-lorganisation-de-sa-bibliothèque-avec-actions-and-tags)  
 - [4. Améliorer les données bibliographiques avec Linter et Zotero Abstract Cleaner](#4-améliorer-les-données-bibliographiques-avec-linter-et-zotero-abstract-cleaner)
 - [5. ZoteroPreview pour vérifier la mise en forme des citations et des références](#5-zoteropreview-pour-vérifier-la-mise-en-forme-des-citations-et-des-références)
-- [6. A vous de tester un ou plusieurs modules](#6-a-vous-de-tester-un-ou-plusieurs-modules)
+- [6. A vous de tester une ou plusieurs extensions](#6-a-vous-de-tester-une-ou-plusieurs-extensions)
 
 
 ## 0. Tour de table
@@ -23,32 +23,32 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
 1. A quelle université ou organisation appartenez-vous? Quel est votre domaine de recherche?
 2. Quelles sont vos attentes pour le stage?
 
-## 1. Installer et configurer un module complémentaire
+## 1. Installer et configurer une extension
 
-L’installation d’un module complémentaire dans Zotero consiste à charger dans Zotero un fichier d’un format particulier, le format `.xpi`. Voici les étapes à suivre.
+L’installation d’une extension dans Zotero consiste à charger dans Zotero un fichier d’un format particulier, le format `.xpi`. Voici les étapes à suivre.
 
-* Enregistrer sur son ordinateur le fichier `.xpi` mis à disposition sur le site du module complémentaire que l’on souhaite installer.
+* Enregistrer sur son ordinateur le fichier `.xpi` mis à disposition sur le site de l'extension que l’on souhaite installer.
 * Dans Zotero, aller dans le menu _Outils_ > _Extensions_.
 * Cliquer sur la roue dentée et choisir _Install Plugin From File_.
 * Sélectionner et charger le fichier `.xpi`.
 
 Il faut parfois redémarrer Zotero pour finaliser l’installation.
 
-![fenêtre d'installation d'un module complémentaire](img/zotero_gest_modules_compl.png)
+![fenêtre d'installation d'une extension](img/zotero_gest_modules_compl.png)
 
-### Où trouver le fichier d'installation d'un module complémentaire?
+### Où trouver le fichier d'installation d'une extension?
 
-Les modules complémentaires sont généralement distribués par le biais d'un dépôt Git en ligne.
+Les extensions sont généralement distribuées par le biais d'un dépôt Git en ligne.
 
 Sur GitHub, on trouve le plus souvent le fichier d'installation `.xpi` sur la page _Releases_, accessible depuis la page principale du dépôt comme illustré ci-dessous. Une fois sur cette page, il convient de choisir la version la plus adaptée, en général il s'agit de la dernière.
 
-![Rubrique Releases sur la page du dépôt GitHub d'un module complémentaire](img/zotero_modules_releases.png)
+![Rubrique Releases sur la page du dépôt GitHub d'une extension](img/zotero_modules_releases.png)
 
 Un lien de téléchargement du fichier `.xpi` est parfois affiché dans le texte de présentation de l'extension. Il faut utiliser ce lien et non la page _Releases_ pour Zotero Abstract Cleaner.
 
 ![Lien de téléchargement du fichier .xpi intégré dans le texte](img/zotero_modules_lien_texte.png)
 
-🛠️ Téléchargez et installez les modules complémentaires que nous allons voir au cours de la formation.
+🛠️ Téléchargez et installez les extensions que nous allons voir au cours de la formation.
 
 * [Attanger](https://github.com/MuiseDestiny/zotero-attanger)
 * [Actions & Tags](https://github.com/windingwind/zotero-actions-tags)
@@ -57,7 +57,7 @@ Un lien de téléchargement du fichier `.xpi` est parfois affiché dans le texte
 
 ## 2. Optimiser la gestion des PDF avec Attanger
 
-Le module complémentaire ZotFile permettait jusqu'à Zotero 6 d'améliorer la gestion des fichiers joints grâce à ses fonctionnalités de **renommage** et de **déplacement** automatiques des fichiers.
+L'extension ZotFile permettait jusqu'à Zotero 6 d'améliorer la gestion des fichiers joints grâce à ses fonctionnalités de **renommage** et de **déplacement** automatiques des fichiers.
 
 Avec Zotero 7, Zotero dispose désormais d'une fonctionnalité de renommage des fichiers complète et sophistiquée.
 
@@ -196,6 +196,16 @@ Il existe déjà des scripts personnalisés, créés par des utilisateurs ou par
 
 📝 Parmi tous [les scripts personnalisés référencés](https://github.com/windingwind/zotero-actions-tags/discussions/categories/action-scripts), d'autres vous sembleraient-ils utiles? Lesquels?
 
+#### Scripts personnalisés reprenant des fonctionnalités de Zutilo
+
+Voici une sélection de scripts qui reprennent des fonctionnalités prises en charge par Zutilo.
+
+* Copier le lien Zotero : [Copy Zotero link](https://github.com/windingwind/zotero-actions-tags/discussions/115)
+* Copier et coller des champs d'un document vers l'autre : [Zutilo Copy](https://github.com/windingwind/zotero-actions-tags/discussions/383) et [Zutilo Paste](https://github.com/windingwind/zotero-actions-tags/discussions/384)
+*  Copier et coller les marqueurs des documents sélectionnés : [Copy and paste tags of selected item(s)](https://github.com/windingwind/zotero-actions-tags/discussions/194)
+* Retirer tous les marqueurs des documents sélectionnés : [Remove All Tags of Selection](https://github.com/windingwind/zotero-actions-tags/discussions/127)
+* Associer les documents sélectionnés avec un lien "Connexe" : [Relate selected items](https://github.com/windingwind/zotero-actions-tags/discussions/164)
+
 ## 4. Améliorer les données bibliographiques avec Linter et Zotero Abstract Cleaner
 
 ### Linter pour déboulocher vos références
@@ -273,7 +283,7 @@ _ZoteroPreview_ affiche un aperçu de la citation et/ou de l'entrée bibliograph
 
 ![ZoteroPreview : la prévisualisation d'un document et les boutons de copie](img/zotero_preview_ref.png)
 
-La section _ZoteroPreview_ des  _Paramètres_ de Zotero, ajoutée lors de l'installation du module, permet de définir :
+La section _ZoteroPreview_ des  _Paramètres_ de Zotero, ajoutée lors de l'installation de l'extension, permet de définir :
 
 * le style bibliographique à appliquer,
 * la position de l'aperçu dans le panneau de droite (en haut, en bas ou après la section Info),
@@ -281,37 +291,37 @@ La section _ZoteroPreview_ des  _Paramètres_ de Zotero, ajoutée lors de l'inst
 
 ![ZoteroPreview : fenêtre de paramétrage](img/zotero_preview_settings.png)
 
-## 6. A vous de tester un ou plusieurs modules
+## 6. A vous de tester une ou plusieurs extensions
 
-🛠️ Nous allons maintenant tester d'autres modules complémentaires, selon les fonctionnalités supplémentaires que vous voudriez ajouter à Zotero.
+🛠️ Nous allons maintenant tester d'autres extensions, selon les fonctionnalités supplémentaires que vous voudriez ajouter à Zotero.
 
-Chacun d'entre vous va installer et tester le module de son choix.
+Chacun d'entre vous va installer et tester l'extension de son choix.
 
-Plusieurs personnes peuvent tester le même module.
+Plusieurs personnes peuvent tester la même extension.
 
 Vous rédigez en LaTeX ou avec un système qui utilise **BibTeX**? Si vous ne l'utilisez pas déjà testez [**BetterBibTeX**](https://retorque.re/zotero-better-bibtex/).
 
-Vous souhaitez intégrer dans Zotero le **suivi des citations** des articles? Voici 2 modules compatibles avec Zotero 7 pour cela.
+Vous souhaitez intégrer dans Zotero le **suivi des citations** des articles? Voici 2 extensions compatibles avec Zotero 7 pour cela.
 
 * [Zotero 7 Citation Counts Manager](https://github.com/FrLars21/ZoteroCitationCountsManager)
 * [Scite Zotero Plugin](https://github.com/scitedotai/scite-zotero-plugin)
 
 Aucune idée?
 
-Consultez ![zotero][zotero] [liste complète des modules complémentaires de Zotero](https://www.zotero.org/support/plugins). Tous les modules présentés dans cette liste ne sont toutefois pas compatibles avec Zotero 7. La discussion [Zotero 7 Plugins](https://forums.zotero.org/discussion/105151/zotero-7-plugins/p2) sur le forum Zotero recense une partie des modules compatibles avec Zotero 7.
+Consultez ![zotero][zotero] [liste complète des extensions de Zotero](https://www.zotero.org/support/plugins). Toutes les extensions présentées dans cette liste ne sont toutefois pas compatibles avec Zotero 7. La discussion [Zotero 7 Plugins](https://forums.zotero.org/discussion/105151/zotero-7-plugins/p2) sur le forum Zotero recense une partie des extensions compatibles avec Zotero 7.
 
 Voici encore 2 suggestions.
 
 * [**Zotero PDF Translate**](https://github.com/windingwind/zotero-pdf-translate)  pour traduire des extraits de PDF à partir du lecteur de PDF intégré à Zotero, traduire automatiquement le titre et le résumé d'un document sélectionné dans sa bibliothèque Zotero, etc.
 * [**Zoplicate**](https://github.com/ChenglongMa/zoplicate) pour améliorer la gestion des doublons et par exemple les fusionner par lot.
 
-Toujours pas d'idée? Testez l'un des modules choisis par un autre participant.
+Toujours pas d'idée? Testez l'une des extensions choisies par un autre participant.
 
-📃 Notez le module que vous allez tester.
+📃 Notez l'extension que vous allez tester.
 
-🕰️ Rendez-vous dans **30 minutes** pour une mise en commun et un retour d'expérience du module que vous avez testé.
+🕰️ Rendez-vous dans **30 minutes** pour une mise en commun et un retour d'expérience de l'extension que vous avez testée.
 
-🤔Si le test du module que vous avez choisi initialement tourne court, changez de module, et signalez ce changement.
+🤔Si le test de l'extension que vous avez choisie initialement tourne court, changez d'extension, et signalez ce changement.
 
 [zotero]: img/icone_zotero.png
 
