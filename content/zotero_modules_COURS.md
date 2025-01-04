@@ -92,7 +92,7 @@ Pour utiliser cette fonctionnalité, il convient d'effectuer les 2 réglages sui
 
 ![Fenêtre de paramétrage d'Attanger](img/zotero_modules_pref_attanger.png)
 
-Une fois sélectionné dans la bibliothèque Zotero le document auquel on souhaite joindre le dernier fichier PDF téléchargé dans le dossier source, il suffit de cliquer sur l'option _Match Attachment_ du menu contextuel.
+Une fois sélectionné dans la bibliothèque Zotero le document auquel on souhaite joindre le dernier fichier PDF téléchargé dans le dossier source, il suffit de cliquer sur l'option _Attach New File_ du menu contextuel.
 
 ## 3. Optimiser l'organisation de sa bibliothèque avec Actions and Tags
 
