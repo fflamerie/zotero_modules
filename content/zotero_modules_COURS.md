@@ -4,7 +4,7 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
 
 ## Objectifs
 
-* Utiliser des extensions pour optimiser l’usage courant de sa bibliothèque Zotero : modifications des données bibliographiques, gestion des marqueurs, organisation de la bibliothèque, etc.
+* Utiliser des extensions pour optimiser l’usage courant de sa bibliothèque Zotero : modifications des données bibliographiques, gestion des marqueurs, organisation de la bibliothèque, etc.
 * Identifier, installer et utiliser d'autres extensions de Zotero en fonction de ses besoins - ![zotero][zotero] [liste complète des extensions de Zotero](https://www.zotero.org/support/plugins)
 
 ## Sommaire
@@ -12,11 +12,9 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
 - [0. Tour de table](#0-tour-de-table)   
 - [1. Installer et configurer une extension](#1-installer-et-configurer-une-extension)   
 - [2. Optimiser la gestion des PDF avec Attanger](#2-optimiser-la-gestion-des-pdf-avec-attanger)  
-- [3. Optimiser l'organisation de sa bibliothèque avec Actions and Tags](#3-optimiser-lorganisation-de-sa-bibliothèque-avec-actions-and-tags)  
-- [4. Améliorer les données bibliographiques avec Linter et Zotero Abstract Cleaner](#4-améliorer-les-données-bibliographiques-avec-linter-et-zotero-abstract-cleaner)
-- [5. ZoteroPreview pour vérifier la mise en forme des citations et des références](#5-zoteropreview-pour-vérifier-la-mise-en-forme-des-citations-et-des-références)
-- [6. A vous de tester une ou plusieurs extensions](#6-a-vous-de-tester-une-ou-plusieurs-extensions)
-
+- [3. Améliorer les données bibliographiques avec Zutilo et Linter](#4-améliorer-les-données-bibliographiques-avec-zutilo-et-linter)
+- [4. Optimiser l'organisation de sa bibliothèque avec Actions and Tags](#3-optimiser-lorganisation-de-sa-bibliothèque-avec-actions-and-tags)  
+- [5. A vous de tester une ou plusieurs extensions](#6-a-vous-de-tester-une-ou-plusieurs-extensions)
 
 ## 0. Tour de table
 
@@ -44,16 +42,12 @@ Sur GitHub, on trouve le plus souvent le fichier d'installation `.xpi` sur la pa
 
 ![Rubrique Releases sur la page du dépôt GitHub d'une extension](img/zotero_modules_releases.png)
 
-Un lien de téléchargement du fichier `.xpi` est parfois affiché dans le texte de présentation de l'extension. Il faut utiliser ce lien et non la page _Releases_ pour Zotero Abstract Cleaner.
-
-![Lien de téléchargement du fichier .xpi intégré dans le texte](img/zotero_modules_lien_texte.png)
-
 🛠️ Téléchargez et installez les extensions que nous allons voir au cours de la formation.
 
 * [Attanger](https://github.com/MuiseDestiny/zotero-attanger)
-* [Actions & Tags](https://github.com/windingwind/zotero-actions-tags)
+* [Zutilo](https://github.com/wshanks/Zutilo)
 * [Linter](https://github.com/northword/zotero-format-metadata)
-* [ZoteroPreview et Zotero Abstract Cleaner](https://github.com/dcartertod/zotero-plugins)
+* [Actions & Tags](https://github.com/windingwind/zotero-actions-tags)
 
 ## 2. Optimiser la gestion des PDF avec Attanger
 
@@ -94,7 +88,107 @@ Pour utiliser cette fonctionnalité, il convient d'effectuer les 2 réglages sui
 
 Une fois sélectionné dans la bibliothèque Zotero le document auquel on souhaite joindre le dernier fichier PDF téléchargé dans le dossier source, il suffit de cliquer sur l'option _Attach New File_ du menu contextuel.
 
-## 3. Optimiser l'organisation de sa bibliothèque avec Actions and Tags
+## 3. Améliorer les données bibliographiques avec Zutilo et Linter
+### Zutilo
+
+Par le biais d'options de menu supplémentaires et de raccourcis clavier, Zutilo ajoute des fonctions non disponibles en standard dans Zotero. Voici quelques-unes des fonctionnalités de Zutilo.
+
+* Copier, coller et retirer des ensembles de marqueurs.
+* Créer des liens de "Connexe" entre les documents sélectionnés grâce à un clic-droit avec le bouton de la souris.
+* Copier dans le presse-papiers des documents dans plusieurs formats différents.
+* Modifier des documents, définir l'emplacement du curseur et masquer différents éléments de l'interface utilisateur Zotero grâce à des raccourcis clavier.
+
+Zutilo s'efforce de réaliser tous vos souhaits en termes de flux de travail Zotero, et de rester à l'écart autrement. Tous les éléments graphiques de Zutilo peuvent être désactivés individuellement, de sorte que les fonctionnalités indésirables n'encombrent pas l'interface utilisateur.
+
+⚠️ Zutilo est maintenu principalement par une seule personne, qui ne dispose plus de beaucoup de temps pour Zutilo. De fait la compatibilité avec Zotero 7 est assurée seulement depuis début 2025, et quelques fonctionnalités (la configuration des raccourcis clavier notamment) ne fonctionnent plus. 
+
+_Traduit de la [présentation de Zutilo - fichier README](https://github.com/wshanks/Zutilo/blob/master/README.md)_
+
+La traduction en français de la documentation est disponible dans le dépôt GitHub de Zutilo.
+
+* Le [fichier COMMANDS-fr](https://github.com/wshanks/Zutilo/blob/master/i18n/fr/readme/docs/COMMANDS.md) explicite chacune des fonctionnalités offertes par ZotFile.
+* Le [fichier USAGE-fr](https://github.com/wshanks/Zutilo/blob/master/i18n/fr/readme/docs/USAGE.md) détaille des cas d'usage pour certaines fonctionnalités en particulier.
+
+🛠️ Ouvrez les préférences de Zutilo et le fichier COMMANDS-fr.
+
+📃 En considérant les fonctions **autres que les fonctions des pièces jointes**, notez :
+
+* les **3** fonctionnalités de Zutilo qui vous semblent **les plus utiles**, en faisant précéder cette liste de `+1`,
+* les **3** fonctionnalités de Zutilo que **vous ne comprenez pas** et pour lesquelles vous souhaiteriez une démo, en faisant précéder cette liste de `??`.
+
+🕰️ Rendez-vous dans **10 minutes**.
+
+<!-- Exemple1 : Copier + Coller dans les champs vides : Compléter des notices -> chapitres, chapitres 1 et 2 de Santé mondiale. Enjeu stratégique et jeux diplomatiques
+Exemple2 : Copier + Remplacer les champs : Rendre conformes des notices -> articles revue d'éco. ind.
+Exemple3 : Multiples formats pour copie rapide
+Préférences avancées à modifier :
+`extensions.zutilo.copyItems_alt_total`  -> nbre de alt souhaités
+  Les documents seront copiés dans le presse-papiers en utilisant d'autres convertisseurs d'export.
+  Pour sélectionner les convertisseurs utilisés par ces fonctions, les préférences correspondantes `extensions.zutilo.quickcopy_alt1` -> préciser le format
+  `extensions.zutilo.quickcopy_alt2` -> préciser le format
+  `export.quickCopy.setting` -> afficher la chaîne de caractères du format de sortie en cours de sélection-->
+
+Notez que les 2 fonctionnalités suivantes sont désormais intégrées à Zotero, sous des intitulés différents, mais avec un fonctionnement similaire.
+
+* Créer une notice "Chapitre de livre" - _fonctionnalité Zotero correspondante : Créer un Chapitre de livre_
+* Créer une notice "Livre" - _fonctionnalité Zotero correspondante : Créer un Livre à partir du Chapitre de livre_
+
+### Linter pour déboulocher vos références
+
+A l'instar des bouloches qui témoignent de l'usure d'un vêtement, les multiples petites imperfections que _Linter_ corrige viennent ternir l'aspect de votre bibliothèque Zotero.
+
+Les corrections effectuées par _Linter_ peuvent être lancées sur une sélection de documents via le menu contextuel _Linter_ :
+
+* soit de façon distincte et sélective,
+* soit toutes en même temps d'un seul coup avec la commande _Lint and Fix_. Cette commande peut par ailleurs s'exécuter automatiquement à l'enregistrement d'un nouveau document.
+
+![Menu contextuel Linter, avec la commande Lint and Fix et les commandes individuelles](img/zotero_modules_linter_menu.png)
+
+📌 Ces corrections peuvent être configurées et/ou désactivées de la commande _Lint and Fix_ dans les paramètres de _Linter_.
+
+Parmi les multiples fonctionnalités de _Linter_, nous retenons celles que nous avons pu tester avec succès et qui nous semblent de l'usage le plus courant.
+
+#### Corriger la casse des titres, des titres de revues et des auteurs
+
+Zotero 7 intègre désormais certaines de ces corrections, mais _Linter_ apporte diverses améliorations.
+
+* Pour les **auteurs**, la fonctionnalité manuelle de Zotero peut être rendue automatique.
+* Pour les **titres**, _Linter_ ajoute à la fonctionnalité de Zotero de conversion automatique de la casse de titre vers la casse de phrase la prise en compte de certains noms propres (notamment les formules chimiques).
+* Pour les **titres de revues**, il s'agit d'appliquer la casse de titre.
+
+⚠️ Il n'est pas d'usage d'utiliser la casse de titre pour les titres de revues françaises, aussi il est plus prudent d'exclure cette option de la commande _Lint and Fix_ si vous citez beaucoup d'articles de revues françaises.   
+
+#### Corriger les abréviations de revue
+
+_Linter_ peut compléter et/ou corriger le champ "Abrév. de revue" automatiquement, en fonction de l'une des options suivantes.
+
+* L'abréviation doit être présente et conforme à [la norme ISO4](https://fr.wikipedia.org/wiki/ISO_4).
+* L'abréviation doit correspondre à celle présente **dans une liste personnalisée** que vous devez alors charger dans l'application (fonctionnalité non testée par nos soins).
+* L'abréviation est déduite du titre de la revue selon les règles d'abréviation standardisées internationales.
+
+#### Normaliser les données de certains champs
+
+* Appliquer pour les **dates** le format ISO YYYY-MM-DD.
+* Supprimer le préfixe d'URL du champ **DOI**.
+* Supprimer les 0 au début des numéros de volume, numéro et pages.
+
+#### Raccourcis clavier pour l'italique, le gras, etc.
+
+Si Zotero permet d'appliquer une mise en forme enrichie à une partie d'un champ, il demeure fastidieux de saisir manuellement les balises html correspondantes.
+
+![zotero][zotero] [Documentation Zotero : Comment puis-je mettre en forme certains mots d'un titre: par ex. en italique, en exposant ou en indice ?](https://docs.zotero-fr.org/kb/rich_text_bibliography/)
+
+Avec _Linter_, les raccourcis clavier courants (ceux de Microsoft Word par exemple) peuvent être utilisés. Une fois le texte sélectionné, les combinaisons suivantes produisent la mise en forme indiquée.
+
+- Exposant : `Ctrl` + `Shift` + `+`
+- Indice : `Ctrl` + `=`
+- Gras : `Ctrl` + `B`
+- Italique : `Ctrl` + `I`
+- Pas de casse: `Ctrl` + `N` - Le paramètre `class="nocase"` empêche certains noms spéciaux de se voir attribués une initiale en majuscule comme le prévoit par défaut la casse de phrase de CSL.
+
+⚠️ Il ne s'agit pas là d'une correction intégrée aux commandes _Lint_. Elle ne fait pas l'objet de réglages dans les paramètres de _Linter_.
+
+## 4. Optimiser l'organisation de sa bibliothèque avec Actions and Tags
 
 ### Aperçu
 
@@ -192,106 +286,12 @@ Il existe déjà des scripts personnalisés, créés par des utilisateurs ou par
 
 🕰️ Nous prenons **15 minutes** pour l'activité suivante.
 
-📝 Installez le script personnalisé [Collection Tags](https://github.com/windingwind/zotero-actions-tags/discussions/245), en choisissant les libellés et/ou le raccourci-clavier qui vous conviennent le mieux. Vous pouvez également opter pour un fonctionnement entièrement manuel.
+📝 Nous allons installer le script personnalisé [Batch Tag Operations
+](https://github.com/windingwind/zotero-actions-tags/discussions/351); choisissez les libellés et/ou le raccourci-clavier qui vous conviennent le mieux. 
 
 📝 Parmi tous [les scripts personnalisés référencés](https://github.com/windingwind/zotero-actions-tags/discussions/categories/action-scripts), d'autres vous sembleraient-ils utiles? Lesquels?
 
-#### Scripts personnalisés reprenant des fonctionnalités de Zutilo
-
-Voici une sélection de scripts qui reprennent des fonctionnalités prises en charge par Zutilo.
-
-* Copier le lien Zotero : [Copy Zotero link](https://github.com/windingwind/zotero-actions-tags/discussions/115)
-* Copier et coller des champs d'un document vers l'autre : [Zutilo Copy](https://github.com/windingwind/zotero-actions-tags/discussions/383) et [Zutilo Paste](https://github.com/windingwind/zotero-actions-tags/discussions/384)
-*  Copier et coller les marqueurs des documents sélectionnés : [Copy and paste tags of selected item(s)](https://github.com/windingwind/zotero-actions-tags/discussions/194)
-* Retirer tous les marqueurs des documents sélectionnés : [Remove All Tags of Selection](https://github.com/windingwind/zotero-actions-tags/discussions/127)
-* Associer les documents sélectionnés avec un lien "Connexe" : [Relate selected items](https://github.com/windingwind/zotero-actions-tags/discussions/164)
-
-## 4. Améliorer les données bibliographiques avec Linter et Zotero Abstract Cleaner
-
-### Linter pour déboulocher vos références
-
-A l'instar des bouloches qui témoignent de l'usure d'un vêtement, les multiples petites imperfections que _Linter_ corrige viennent ternir l'aspect de votre bibliothèque Zotero.
-
-Les corrections effectuées par _Linter_ peuvent être lancées sur une sélection de documents via le menu contextuel _Linter_ :
-
-* soit de façon distincte et sélective,
-* soit toutes en même temps d'un seul coup avec la commande _Lint and Fix_. Cette commande peut par ailleurs s'exécuter automatiquement à l'enregistrement d'un nouveau document.
-
-![Menu contextuel Linter, avec la commande Lint and Fix et les commandes individuelles](img/zotero_modules_linter_menu.png)
-
-📌 Ces corrections peuvent être configurées et/ou désactivées de la commande _Lint and Fix_ dans les paramètres de _Linter_.
-
-Parmi les multiples fonctionnalités de _Linter_, nous retenons celles que nous avons pu tester avec succès et qui nous semblent de l'usage le plus courant.
-
-#### Corriger la casse des titres, des titres de revues et des auteurs
-
-Zotero 7 intègre désormais certaines de ces corrections, mais _Linter_ apporte diverses améliorations.
-
-* Pour les **auteurs**, la fonctionnalité manuelle de Zotero peut être rendue automatique.
-* Pour les **titres**, _Linter_ ajoute à la fonctionnalité de Zotero de conversion automatique de la casse de titre vers la casse de phrase la prise en compte de certains noms propres (notamment les formules chimiques).
-* Pour les **titres de revues**, il s'agit d'appliquer la casse de titre.
-
-⚠️ Il n'est pas d'usage d'utiliser la casse de titre pour les titres de revues françaises, aussi il est plus prudent d'exclure cette option de la commande _Lint and Fix_ si vous citez beaucoup d'articles de revues françaises.   
-
-#### Corriger les abréviations de revue
-
-_Linter_ peut compléter et/ou corriger le champ "Abrév. de revue" automatiquement, en fonction de l'une des options suivantes.
-
-* L'abréviation doit être présente et conforme à [la norme ISO4](https://fr.wikipedia.org/wiki/ISO_4).
-* L'abréviation doit correspondre à celle présente **dans une liste personnalisée** que vous devez alors charger dans l'application (fonctionnalité non testée par nos soins).
-* L'abréviation est déduite du titre de la revue selon les règles d'abréviation standardisées internationales.
-
-#### Normaliser les données de certains champs
-
-* Appliquer pour les **dates** le format ISO YYYY-MM-DD.
-* Supprimer le préfixe d'URL du champ **DOI**.
-* Supprimer les 0 au début des numéros de volume, numéro et pages.
-
-#### Raccourcis clavier pour l'italique, le gras, etc.
-
-Si Zotero permet d'appliquer une mise en forme enrichie à une partie d'un champ, il demeure fastidieux de saisir manuellement les balises html correspondantes.
-
-![zotero][zotero] [Documentation Zotero : Comment puis-je mettre en forme certains mots d'un titre: par ex. en italique, en exposant ou en indice ?](https://docs.zotero-fr.org/kb/rich_text_bibliography/)
-
-Avec _Linter_, les raccourcis clavier courants (ceux de Microsoft Word par exemple) peuvent être utilisés. Une fois le texte sélectionné, les combinaisons suivantes produisent la mise en forme indiquée.
-
-- Exposant : `Ctrl` + `Shift` + `+`
-- Indice : `Ctrl` + `=`
-- Gras : `Ctrl` + `B`
-- Italique : `Ctrl` + `I`
-- Pas de casse: `Ctrl` + `N` - Le paramètre `class="nocase"` empêche certains noms spéciaux de se voir attribués une initiale en majuscule comme le prévoit par défaut la casse de phrase de CSL.
-
-⚠️ Il ne s'agit pas là d'une correction intégrée aux commandes _Lint_. Elle ne fait pas l'objet de réglages dans les paramètres de _Linter_.
-
-### Zotero Abstract Cleaner pour nettoyer les résumés
-
-Le nettoyage effectué par _Zotero Abstract Cleaner_ porte sur un seul point, mais cette unique modification évite de fastidieuses modifications manuelles et améliore nettement la lisibilité du résumé.
-
-Quand on colle un extrait de texte copié depuis un fichier PDF, on peut avoir la désagréable surprise de constater que chaque ligne du PDF est considérée comme un paragraphe et donc terminée par un saut de ligne.
-
-![Résumé avec des sauts de ligne et option Fix Line Endings in Abstract](img/zotero_modules_resume.png)
-
-_Zotero Abstract Cleaner_ supprime automatiquement tous ces sauts de ligne. Il convient pour ce faire de sélectionner les documents à traiter dans la bibliothèque Zotero, puis de choisir l'option _Fix Line Endings in Abstract_ dans le menu contextuel.
-
-![Résumé nettoyé par Abstract Cleaner](img/zotero_modules_resume2.png)
-
-## 5. ZoteroPreview pour vérifier la mise en forme des citations et des références
-
-_ZoteroPreview_ offre un affichage immédiat de la mise en forme effectuée par un style bibliographique, en revanche il n’est pas possible de sélectionner plusieurs références ni plusieurs styles en même temps. Pour sélectionner plusieurs références et/ou plusieurs styles en même temps, il convient d'utiliser l'_Aperçu des styles_ intégré à Zotero.
-
-_ZoteroPreview_ affiche un aperçu de la citation et/ou de l'entrée bibliographique du document dans le panneau de droite, avec un bouton de copie.
-
-![ZoteroPreview : la prévisualisation d'un document et les boutons de copie](img/zotero_preview_ref.png)
-
-La section _ZoteroPreview_ des  _Paramètres_ de Zotero, ajoutée lors de l'installation de l'extension, permet de définir :
-
-* le style bibliographique à appliquer,
-* la position de l'aperçu dans le panneau de droite (en haut, en bas ou après la section Info),
-* la taille des caractères et l'espacement des interlignes.
-
-![ZoteroPreview : fenêtre de paramétrage](img/zotero_preview_settings.png)
-
-## 6. A vous de tester une ou plusieurs extensions
+## 5. A vous de tester une ou plusieurs extensions
 
 🛠️ Nous allons maintenant tester d'autres extensions, selon les fonctionnalités supplémentaires que vous voudriez ajouter à Zotero.
 
@@ -308,18 +308,20 @@ Vous souhaitez intégrer dans Zotero le **suivi des citations** des articles? Vo
 
 Aucune idée?
 
-Consultez ![zotero][zotero] [liste complète des extensions de Zotero](https://www.zotero.org/support/plugins). Toutes les extensions présentées dans cette liste ne sont toutefois pas compatibles avec Zotero 7. La discussion [Zotero 7 Plugins](https://forums.zotero.org/discussion/105151/zotero-7-plugins/p2) sur le forum Zotero recense une partie des extensions compatibles avec Zotero 7.
+Consultez ![zotero][zotero] [la liste complète des extensions de Zotero](https://www.zotero.org/support/plugins). Toutes les extensions présentées dans cette liste ne sont toutefois pas compatibles avec Zotero 7. 
 
-Voici encore 2 suggestions.
+Voici encore quelques suggestions supplémentaires.
 
-* [**Zotero PDF Translate**](https://github.com/windingwind/zotero-pdf-translate)  pour traduire des extraits de PDF à partir du lecteur de PDF intégré à Zotero, traduire automatiquement le titre et le résumé d'un document sélectionné dans sa bibliothèque Zotero, etc.
+* [**Zotero Abstract Cleaner**](https://github.com/dcartertod/zotero-plugins) pour nettoyer automatiquement les sauts de ligne dans les résumés copiés-collés depuis des fichiers PDF.
+* [**Zotero PDF Translate**](https://github.com/windingwind/zotero-pdf-translate) pour traduire des extraits de PDF à partir du lecteur de PDF intégré à Zotero, traduire automatiquement le titre et le résumé d'un document sélectionné dans sa bibliothèque Zotero, etc.
 * [**Zoplicate**](https://github.com/ChenglongMa/zoplicate) pour améliorer la gestion des doublons et par exemple les fusionner par lot.
+* [**DOI Manager**]() pour vérifier, nettoyer et retrouver automatiquement les DOI des documents de votre bibliothèque. Cela améliore la qualité des données bibliographiques et peut rendre plus performants [les moteurs de recherche intégrés à Zotero](https://zotero.hypotheses.org/3388).
 
 Toujours pas d'idée? Testez l'une des extensions choisies par un autre participant.
 
 📃 Notez l'extension que vous allez tester.
 
-🕰️ Rendez-vous dans **30 minutes** pour une mise en commun et un retour d'expérience de l'extension que vous avez testée.
+🕰️ Rendez-vous dans **25 minutes** pour une mise en commun et un retour d'expérience de l'extension que vous avez testée.
 
 🤔Si le test de l'extension que vous avez choisie initialement tourne court, changez d'extension, et signalez ce changement.
 
