@@ -106,7 +106,7 @@ _Traduit de la [présentation de Zutilo - fichier README](https://github.com/wsh
 
 La traduction en français de la documentation est disponible dans le dépôt GitHub de Zutilo.
 
-* Le [fichier COMMANDS-fr](https://github.com/wshanks/Zutilo/blob/master/i18n/fr/readme/docs/COMMANDS.md) explicite chacune des fonctionnalités offertes par ZotFile.
+* Le [fichier COMMANDS-fr](https://github.com/wshanks/Zutilo/blob/master/i18n/fr/readme/docs/COMMANDS.md) explicite chacune des fonctionnalités offertes par Zutilo.
 * Le [fichier USAGE-fr](https://github.com/wshanks/Zutilo/blob/master/i18n/fr/readme/docs/USAGE.md) détaille des cas d'usage pour certaines fonctionnalités en particulier.
 
 🛠️ Ouvrez les préférences de Zutilo et le fichier COMMANDS-fr.
