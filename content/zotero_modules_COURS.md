@@ -315,7 +315,7 @@ Voici encore quelques suggestions supplémentaires.
 * [**Zotero Abstract Cleaner**](https://github.com/dcartertod/zotero-plugins) pour nettoyer automatiquement les sauts de ligne dans les résumés copiés-collés depuis des fichiers PDF.
 * [**Zotero PDF Translate**](https://github.com/windingwind/zotero-pdf-translate) pour traduire des extraits de PDF à partir du lecteur de PDF intégré à Zotero, traduire automatiquement le titre et le résumé d'un document sélectionné dans sa bibliothèque Zotero, etc.
 * [**Zoplicate**](https://github.com/ChenglongMa/zoplicate) pour améliorer la gestion des doublons et par exemple les fusionner par lot.
-* [**DOI Manager**]() pour vérifier, nettoyer et retrouver automatiquement les DOI des documents de votre bibliothèque. Cela améliore la qualité des données bibliographiques et peut rendre plus performants [les moteurs de recherche intégrés à Zotero](https://zotero.hypotheses.org/3388).
+* [**DOI Manager**](https://github.com/bwiernik/zotero-shortdoi) pour vérifier, nettoyer et retrouver automatiquement les DOI des documents de votre bibliothèque. Cela améliore la qualité des données bibliographiques et peut rendre plus performants [les moteurs de recherche intégrés à Zotero](https://zotero.hypotheses.org/3388).
 
 Toujours pas d'idée? Testez l'une des extensions choisies par un autre participant.
 
