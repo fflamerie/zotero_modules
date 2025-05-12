@@ -1,6 +1,6 @@
 # Approfondissement Zotero : les extensions de Zotero
 
-Matériel de la formation ["Approfondissement Zotero : les extensions de Zotero"](https://sygefor.reseau-urfist.fr/#/training/10644/12969?from=true) à l'Urfist Bordeaux.
+Matériel de la formation "Approfondissement Zotero : les extensions de Zotero" - stage Urfist
 
 ## Objectifs
 
@@ -11,7 +11,7 @@ Matériel de la formation ["Approfondissement Zotero : les extensions de Zotero"
 
 [Support de COURS à consulter en ligne en html](https://github.com/fflamerie/zotero_modules/blob/master/content/zotero_modules_COURS.md)
 
-## Programme publié sur le site de l'Urfist
+## Programme 
 
 Zotero peut être comparé à un meuble produit par une célèbre marque suédoise : rassurez-vous, non en termes de robustesse ni de facilité de montage, mais en raison de sa grande modularité et de son caractère « en kit ». De nombreuses extensions et applications compatibles viennent en effet enrichir Zotero, en proposant pour une fonctionnalité donnée le choix d’un outil spécifique et spécialisé, étendant ainsi considérablement les fonctionnalités de base de Zotero.
 
