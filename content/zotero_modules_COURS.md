@@ -9,12 +9,12 @@ L'icône ![zotero][zotero] signale la documentation officielle Zotero, y compris
 
 ## Sommaire
 
-- [0. Tour de table](#0-tour-de-table)   
-- [1. Installer et configurer une extension](#1-installer-et-configurer-une-extension)   
-- [2. Optimiser la gestion des PDF avec Attanger](#2-optimiser-la-gestion-des-pdf-avec-attanger)  
-- [3. Améliorer les données bibliographiques avec Zutilo et Linter](#4-améliorer-les-données-bibliographiques-avec-zutilo-et-linter)
-- [4. Optimiser l'organisation de sa bibliothèque avec Actions and Tags](#3-optimiser-lorganisation-de-sa-bibliothèque-avec-actions-and-tags)  
-- [5. A vous de tester une ou plusieurs extensions](#6-a-vous-de-tester-une-ou-plusieurs-extensions)
+0. Tour de table   
+1. Installer et configurer une extension 
+2. Optimiser la gestion des PDF avec Attanger
+3. Améliorer les données bibliographiques avec Zutilo et Linter
+4. Optimiser l'organisation de sa bibliothèque avec Actions and Tags
+5. A vous de tester une ou plusieurs extensions
 
 ## 0. Tour de table
 
@@ -57,10 +57,10 @@ Avec Zotero 7, Zotero dispose désormais d'une fonctionnalité de renommage des 
 
 ![zotero][zotero] [Documentation Zotero : Renommage des fichiers](https://docs.zotero-fr.org/file_renaming/).
 
-_Attanger_ reprend quant à lui fonctionnalités de **déplacement des fichiers** avec 2 cas d'usage :
+Attanger reprend quant à lui fonctionnalités de **déplacement des fichiers** avec 2 cas d'usage :
 
 1. déplacer automatiquement les fichiers joints dans un répertoire défini **hors de Zotero** si on choisit de gérer ces fichiers en dehors de Zotero,
-2. attacher automatiquement au document en cours de sélection dans la bibliothèque Zotero le dernier fichier PDF téléchargé dans un répertoire défini.
+2. attacher automatiquement au document en cours de sélection dans la bibliothèque Zotero le dernier fichier téléchargé dans un répertoire défini. Si ZotFile se limitait aux PDF pour cette fonctionnalité, Attanger considère le dernier fichier téléchargé, **quel que soit le format de fichier**.
 
 ### Comment gérez-vous vos PDF actuellement?
 
@@ -79,7 +79,7 @@ Et son supplément : Être ou ne pas être dans Zotero : quel choix pour vos PD
 
 ### Joindre automatiquement le dernier fichier PDF téléchargé
 
-Pour utiliser cette fonctionnalité, il convient d'effectuer les 2 réglages suivants dans les paramètres d'_Attanger_.
+Pour utiliser cette fonctionnalité, il convient d'effectuer les 2 réglages suivants dans les paramètres d'Attanger.
 
 * _Source Path_ : on indique ici le répertoire source à partir duquel chercher les fichiers PDF à joindre automatiquement. Cela peut être par exemple le dossier _Téléchargements_.
 * _Attach Type_ : on choisit la valeur _Stored Copy_ si on enregistre ses fichiers joints dans Zotero.
