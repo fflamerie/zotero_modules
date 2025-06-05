@@ -135,32 +135,32 @@ Notez que les 2 fonctionnalités suivantes sont désormais intégrées à Zotero
 
 ### Linter pour déboulocher vos références
 
-A l'instar des bouloches qui témoignent de l'usure d'un vêtement, les multiples petites imperfections que _Linter_ corrige viennent ternir l'aspect de votre bibliothèque Zotero.
+A l'instar des bouloches qui témoignent de l'usure d'un vêtement, les multiples petites imperfections que Linter corrige viennent ternir l'aspect de votre bibliothèque Zotero.
 
-Les corrections effectuées par _Linter_ peuvent être lancées sur une sélection de documents via le menu contextuel _Linter_ :
+Les corrections effectuées par Linter peuvent être lancées sur une sélection de documents via le menu contextuel Linter :
 
 * soit de façon distincte et sélective,
 * soit toutes en même temps d'un seul coup avec la commande _Lint and Fix_. Cette commande peut par ailleurs s'exécuter automatiquement à l'enregistrement d'un nouveau document.
 
 ![Menu contextuel Linter, avec la commande Lint and Fix et les commandes individuelles](img/zotero_modules_linter_menu.png)
 
-📌 Ces corrections peuvent être configurées et/ou désactivées de la commande _Lint and Fix_ dans les paramètres de _Linter_.
+📌 Ces corrections peuvent être configurées et/ou désactivées de la commande _Lint and Fix_ dans les paramètres de Linter.
 
-Parmi les multiples fonctionnalités de _Linter_, nous retenons celles que nous avons pu tester avec succès et qui nous semblent de l'usage le plus courant.
+Parmi les multiples fonctionnalités de Linter, nous retenons celles que nous avons pu tester avec succès et qui nous semblent de l'usage le plus courant.
 
 #### Corriger la casse des titres, des titres de revues et des auteurs
 
 Zotero 7 intègre désormais certaines de ces corrections, mais _Linter_ apporte diverses améliorations.
 
 * Pour les **auteurs**, la fonctionnalité manuelle de Zotero peut être rendue automatique.
-* Pour les **titres**, _Linter_ ajoute à la fonctionnalité de Zotero de conversion automatique de la casse de titre vers la casse de phrase la prise en compte de certains noms propres (notamment les formules chimiques).
+* Pour les **titres**, Linter ajoute à la fonctionnalité de Zotero de conversion automatique de la casse de titre vers la casse de phrase la prise en compte de certains noms propres (notamment les formules chimiques).
 * Pour les **titres de revues**, il s'agit d'appliquer la casse de titre.
 
 ⚠️ Il n'est pas d'usage d'utiliser la casse de titre pour les titres de revues françaises, aussi il est plus prudent d'exclure cette option de la commande _Lint and Fix_ si vous citez beaucoup d'articles de revues françaises.   
 
 #### Corriger les abréviations de revue
 
-_Linter_ peut compléter et/ou corriger le champ "Abrév. de revue" automatiquement, en fonction de l'une des options suivantes.
+Linter peut compléter et/ou corriger le champ "Abrév. de revue" automatiquement, en fonction de l'une des options suivantes.
 
 * L'abréviation doit être présente et conforme à [la norme ISO4](https://fr.wikipedia.org/wiki/ISO_4).
 * L'abréviation doit correspondre à celle présente **dans une liste personnalisée** que vous devez alors charger dans l'application (fonctionnalité non testée par nos soins).
@@ -178,7 +178,7 @@ Si Zotero permet d'appliquer une mise en forme enrichie à une partie d'un champ
 
 ![zotero][zotero] [Documentation Zotero : Comment puis-je mettre en forme certains mots d'un titre: par ex. en italique, en exposant ou en indice ?](https://docs.zotero-fr.org/kb/rich_text_bibliography/)
 
-Avec _Linter_, les raccourcis clavier courants (ceux de Microsoft Word par exemple) peuvent être utilisés. Une fois le texte sélectionné, les combinaisons suivantes produisent la mise en forme indiquée.
+Avec Linter, les raccourcis clavier courants (ceux de Microsoft Word par exemple) peuvent être utilisés. Une fois le texte sélectionné, les combinaisons suivantes produisent la mise en forme indiquée.
 
 - Exposant : `Ctrl` + `Shift` + `+`
 - Indice : `Ctrl` + `=`
@@ -286,8 +286,7 @@ Il existe déjà des scripts personnalisés, créés par des utilisateurs ou par
 
 🕰️ Nous prenons **15 minutes** pour l'activité suivante.
 
-📝 Nous allons installer le script personnalisé [Batch Tag Operations
-](https://github.com/windingwind/zotero-actions-tags/discussions/351); choisissez les libellés et/ou le raccourci-clavier qui vous conviennent le mieux. 
+📝 Nous allons installer le script personnalisé [Batch Tag Operations](https://github.com/windingwind/zotero-actions-tags/discussions/351); choisissez les libellés et/ou le raccourci-clavier qui vous conviennent le mieux. 
 
 📝 Parmi tous [les scripts personnalisés référencés](https://github.com/windingwind/zotero-actions-tags/discussions/categories/action-scripts), d'autres vous sembleraient-ils utiles? Lesquels?
 
