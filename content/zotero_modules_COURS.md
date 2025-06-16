@@ -160,11 +160,16 @@ Zotero 7 intègre désormais certaines de ces corrections, mais _Linter_ apporte
 
 #### Corriger les abréviations de revue
 
-Linter peut compléter et/ou corriger le champ "Abrév. de revue" automatiquement, en fonction de l'une des options suivantes.
+Linter peut compléter et/ou corriger le champ "Abrév. de revue" automatiquement, en fonction de l'une des 2 options suivantes. 
 
-* L'abréviation doit être présente et conforme à [la norme ISO4](https://fr.wikipedia.org/wiki/ISO_4).
-* L'abréviation doit correspondre à celle présente **dans une liste personnalisée** que vous devez alors charger dans l'application (fonctionnalité non testée par nos soins).
-* L'abréviation est déduite du titre de la revue selon les règles d'abréviation standardisées internationales.
+* Le titre de revue abrégé doit être conforme à la [norme ISO4](https://fr.wikipedia.org/wiki/ISO_4) : Linter peut le construire à partir de la ["Liste d’abréviations de mots de titres" officielle de l'ISSN](https://www.issn.org/fr/services-et-prestations/services-en-ligne/acces-a-la-ltwa/), ou LTWA en anglais.
+* Le titre de revue abrégé est ajouté à partir d'une **liste personnalisée** au format CSV ou JSON, dont vous devez spécifier l'emplacement. 
+
+⚠️ Les règles d'abréviation des titres de revue appliquées par certains éditeurs ou certaines bases de données ne se conforment pas à la norme ISO4. Ainsi [les règles d'abréviation de la _NLM (National Library of Medicine_](https://www.nlm.nih.gov/tsd/cataloging/contructitleabbre.html), appliquées dans le domaine biomédical, diffèrent notamment de celles de la norme ISO4 en ce qu'elles ne prévoient pas de point à la fin de chaque segment abrégé. Notez que [la fonctionnalité d'abréviation des titres de revue intégrée dans les extensions de traitement de texte de Zotero](https://docs.zotero-fr.org/word_processor_plugin_usage/#preferences-du-document) applique les règles d'abréviation de la NLM.
+
+Exemple pour le titre de revue _Journal of mass spectrometry_
+* Titre abrégé selon la norme ISO4 : _J. mass spectrom._
+* Titre abrégé selon les règles de la NLM : _J Mass Spectrom_
 
 #### Normaliser les données de certains champs
 
@@ -307,7 +312,7 @@ Vous souhaitez intégrer dans Zotero le **suivi des citations** des articles? Vo
 
 Aucune idée?
 
-Consultez ![zotero][zotero] [la liste complète des extensions de Zotero](https://www.zotero.org/support/plugins). Toutes les extensions présentées dans cette liste ne sont toutefois pas compatibles avec Zotero 7. 
+Consultez [la rubrique "Trouver une extension" de la page dédiée dans la base de connaissance Zotero en français](https://docs.zotero-fr.org/kbfr/kbfr_extensions/#trouver-une-extension).
 
 Voici encore quelques suggestions supplémentaires.
 
