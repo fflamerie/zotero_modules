@@ -88,6 +88,18 @@ Pour utiliser cette fonctionnalité, il convient d'effectuer les 2 réglages sui
 
 Une fois sélectionné dans la bibliothèque Zotero le document auquel on souhaite joindre le dernier fichier PDF téléchargé dans le dossier source, il suffit de cliquer sur l'option _Attach New File_ du menu contextuel.
 
+### Extension complémentaire ou alternative : Zotmoov
+
+[Zotmoov](https://github.com/wileyyugioh/zotmoov) fournit des services analogues et complémentaires pour la gestion des fichiers joints. Il offre notamment les fonctionnalités suivantes, absentes de Attanger.
+
+* **Copier** les fichiers joints dans un répertoire externe à Zotero : appliquer à une sélection de documents de manière ponctuelle, la copie permet par exemple de préparer aisément un lot de fichiers à envoyer par courriel ou à sauvegarder en dehors de Zotero, sans pour autant les supprimer de Zotero. 
+* **Créer automatiquement des sous-répertoires** basés sur les informations bibliographiques pour le déplacement ou la copie des fichiers joints. Attanger permet seulement de spécifier un sous-répertoire existant.
+* **Supprimer les fichiers liés** lorsque leur document parent est supprimé dans Zotero.
+* **Spécifier les formats de fichier à prendre en charge**, y compris pour joindre le dernier fichier modifié dans le dossier source. Attanger permet de spécifier les formats à prendre en charge pour le déplacement et le renommage, mais non pour l'attachement automatique depuis le dossier source.
+* Afficher **ou non** un message de confirmation avant l'attachement de ce fichier.
+
+![Fenêtre de paramétrage de Zotmoov : les options de renommage des fichiers et le choix du dossier source font partie des options avancées](img/Zotmoov_pref_1.png)
+
 ## 3. Améliorer les données bibliographiques avec Zutilo et Linter
 ### Zutilo
 
