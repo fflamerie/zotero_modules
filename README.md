@@ -9,7 +9,7 @@ Matériel de la formation "Approfondissement Zotero : les extensions de Zotero" 
 
 ## Support de formation
 
-[Support de COURS à consulter en ligne en html](https://github.com/fflamerie/zotero_modules/blob/master/content/zotero_modules_COURS.md)
+[Support de COURS à consulter en ligne en html](https://github.com/fflamerie/zotero_modules/blob/main/content/zotero_modules_COURS.md)
 
 ## Programme 
 
