@@ -127,6 +127,7 @@ Actions & Tags vous permet d'optimiser votre organisation et votre flux de trava
 
 📝 Installons ensemble le script personnalisé [Bulk Edit Multiple Items](https://github.com/windingwind/zotero-actions-tags/discussions/343). 
 
+Première fenêtre de dialogue du script "Bulk Edit Multiple Items"
 ![Première fenêtre de dialogue du script "Bulk Edit Multiple Items"](img/ActionsTags_bulk_edit_items.png)
 
 ## 5. A vous de tester une ou plusieurs extensions
