@@ -32,9 +32,9 @@ La procédure est détaillée dans la base de connaissance en français de Zoter
 * [Linter](https://github.com/northword/zotero-format-metadata)
 * [Actions & Tags](https://github.com/windingwind/zotero-actions-tags)
 
-💡 L'extension [Add-on Market for Zotero](https://github.com/syt2/zotero-addons) facilite à la fois le repérage, l'installation et la gestion des extensions. Elle permet notamment d'installer en un clic toutes les extensions qu'elle répertorie.
+💡 L'extension [Marché d'extensions pour Zotero - _Add-on Market for Zotero_](https://github.com/syt2/zotero-addons) facilite à la fois le repérage, l'installation et la gestion des extensions. Elle permet notamment d'installer en un clic toutes les extensions qu'elle répertorie.
 
-![Installation d'une extension via Add-on Market for Zotero](https://docs.zotero-fr.org/images/kbfr_extensions_addon_market.gif)
+![Installation d'une extension via Marché d'extensions pour Zotero](https://docs.zotero-fr.org/images/kbfr_extensions_addon_market.gif)
 
 
 ## 2. Optimiser la gestion des PDF avec Attanger
@@ -165,7 +165,7 @@ Toujours pas d'idée? Testez l'une des extensions choisies par un autre particip
 
 # Crédits
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/fr/88x31.png" /></a><br />Ce document est mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/">Licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 3.0 France</a>.
+<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/fr/88x31.png" /></a><br />Les supports sont mis à disposition selon les termes de la <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Licence Creative Commons Attribution - Partage dans les mêmes conditions 4.0 International Deed</a>.
 
 **Auteur**
 
